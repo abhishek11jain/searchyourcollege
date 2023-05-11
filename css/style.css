@@ -3535,6 +3535,72 @@ table {
 }
 
 
+
+/* Mbbs Abroad Section */
+.banner-section .container {
+    max-width: 900px;
+}
+
+.banner-section {
+    height: 50ch;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 1em;
+}
+
+.banner-section .overlay {
+    height: 50ch;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.667), rgba(255, 255, 255, 0.231));
+}
+
+.banner-section .content {
+    position: relative;
+    top: 7.5em;
+}
+
+.banner-section .content h3 {
+    color: var(--white-primary);
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px var(--primary-color);
+}
+
+.banner-section .searchbox {
+    height: 50px;
+    background: var(--white-primary);
+    text-align: start;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid var(--white-primary);
+    width: 100%;
+}
+
+.banner-section .searchbtn {
+    width: 100px;
+    text-align: center;
+    padding: 13px;
+    height: 50px;
+    border: none;
+    background: var(--secondary-color);
+    color: var(--white-primary);
+}
+
+.banner-section h6 {
+    color: var(--white-primary);
+}
+
+.banner-section .badge {
+    margin: 0 3px 10px;
+}
+/* Mbbs Abroad Section */
+
+
+
 /* Study Abrod Mbbs Profile */
 .study-profile-section .section-navbar {
     position: fixed;

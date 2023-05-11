@@ -1,0 +1,81 @@
+@media only screen and (max-width : 767px) {
+    .mobile-none{
+        display: none;
+    }
+    h1 {
+        font-size: 2em !important;
+    }
+
+    h2 {
+        font-size: 1.5em !important;
+    }
+
+    h3 {
+        font-size: 1.17em !important;
+    }
+
+    h5 {
+        font-size: .83em !important;
+    }
+
+    h6 {
+        font-size: .75em !important;
+    }
+
+    p{
+        font-size: 0.75rem;
+    }
+
+    .p-5{
+        padding: 1rem !important;
+    }
+
+    .badge {
+        font-size: 0.6rem;
+    }
+
+
+    /* Banner Start */
+    .banner-section .content {
+        top: 3.5em;
+    }
+
+    .banner-section .searchbox {
+        height: 40px;
+        font-size: 0.6rem;
+    }
+
+    .banner-section .searchbtn {
+        height: 40px;
+        padding: 7px;
+    }
+
+    /* Banner Start */
+
+}
+
+@media only screen and (min-width : 767px){
+    .desktop-none{
+        display: none;
+    }
+}
+
+/* IPAD PRO PORTRAIT */
+@media only screen and (device-height : 1366px) and (device-width : 1024px) and (orientation: portrait){
+    .country-section .back-image img{
+        height: 15ch;
+    }
+}
+
+/* IPAD LANDSCAPE */
+@media only screen and (device-width : 1024px) and (device-height : 768px) and (orientation: landscape) {
+    .country-section .back-image img{
+        height: 15ch;
+    }
+    .navbar-section .nav-item {
+        color: var(--white-primary);
+        font-weight: 500;
+        border-right: 1px solid;
+        padding: 3px 15px 3px 15px;
+    }
+}
