@@ -87,7 +87,7 @@
                                     <div class="row">
                                         <div class="col-lg-8 col-sm-8 col-8">
                                             <div class="form-group mb-0">
-                                                <input type="text" class="form-control" placeholder="Enter Your Domain Name">
+                                                <button onclick="openSearch()" class="form-control" type="button" >Search for colleges, exams, courses and more..</button>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-sm-4 col-4">
@@ -313,7 +313,6 @@
         <!-- Countries Section End -->
 
 
-
         <!-- Footer Section STart -->
             <section class="footer-section bg-light">
                 <div class="container">
@@ -394,6 +393,162 @@
         <!-- Footer Section End -->
 
 
+        <!-- Searchbar Start -->
+            <div class="overlay-searchbox">
+                <div id="mySearchbar" class="searchbar">
+                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                    <div class="searchbar-content">
+                        <form action="#">
+                            <input type="text" placeholder="Search for Colleges, Exams, News and more" name="search">
+                        </form>
+                    </div>
+                    <div class="search-data">
+                        <div class="search-by-category mb-5">
+                            <div class="title">
+                                <h6 class="text-uppercase">Search By Stream</h6>
+                            </div>
+                            <div class="category-data">
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                            </div>
+                        </div>
+                        
+                        <div class="search-by-category mb-5">
+                            <div class="title">
+                                <h6 class="text-uppercase">Search By Category</h6>
+                            </div>
+                            <div class="category-data">
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                            </div>
+                        </div>
+
+                        <div class="search-by-category mb-5">
+                            <div class="title">
+                                <h6 class="text-uppercase">Search By University</h6>
+                            </div>
+                            <div class="category-data">
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                                <button class="badge shadow-sm">Engineering </button>
+                                <button class="badge shadow-sm">Management </button>
+                                <button class="badge shadow-sm">Law </button>
+                                <button class="badge shadow-sm">Medical </button>
+                                <button class="badge shadow-sm">Computer Application </button>
+                                <button class="badge shadow-sm">Arts </button>
+                            </div>
+                        </div>                        
+
+                        <div class="data">
+                            <div class="search-by-category mb-3">
+                                <div class="title">
+                                    <h6 class="text-uppercase">Welcome To Engineering Data</h6>
+                                </div>
+                                <div class="category-data">
+                                    <button class="badge shadow-sm">Top College</button>
+                                    <button class="badge shadow-sm">Top University</button>
+                                    <button class="badge shadow-sm">Top Exam</button>
+                                </div>
+                            </div>
+                            <div class="searching-data d-flex gap-2">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/Al-Falah_University_logo.png" alt="College-image">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <a href="#"> Amity University - Amity University </a>
+                                    <p class="mb-0"> Noida - Uttar Pradesh | UGC, COA, BCI, PCI, AIU, ACU </p>
+                                </div>
+                            </div>
+                            <div class="searching-data d-flex gap-2">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/Al-Falah_University_logo.png" alt="College-image">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <a href="#"> Amity University - Amity University </a>
+                                    <p class="mb-0"> Noida - Uttar Pradesh | UGC, COA, BCI, PCI, AIU, ACU </p>
+                                </div>
+                            </div>
+                            <div class="searching-data d-flex gap-2">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/Al-Falah_University_logo.png" alt="College-image">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <a href="#"> Amity University - Amity University </a>
+                                    <p class="mb-0"> Noida - Uttar Pradesh | UGC, COA, BCI, PCI, AIU, ACU </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Searchbar End -->  
+
     <body>
 
         <!-- Bootstrap JavaScript Libraries -->
@@ -401,6 +556,18 @@
 
         <!-- Js Link -->
         <script src="js/abroad/abroad.js"></script>
+
+
+        <!-- Searchbar Script -->
+        <script>
+            function openSearch() {
+            document.getElementById("mySearchbar").style.display = "block";
+            }
+            
+            function closeSearch() {
+            document.getElementById("mySearchbar").style.display = "none";
+            }
+        </script>
 
     </body>
 

@@ -76,6 +76,18 @@ p{
     border: 1px solid var(--border-gray) !important;
 }
 
+.badge {
+    background: var(--gray-light);
+    color: var(--black-primary);
+    font-weight: 400;
+    padding: 10px;
+    border: 0.02rem solid var(--border-gray);
+    box-shadow: none !important;
+    text-transform: capitalize !important;
+    margin: 5px 10px;
+    transition: 0.3s ease-in-out;
+}
+
 html {
     height: auto;
     font-family: 'Open Sans', sans-serif;
@@ -164,6 +176,11 @@ section {
     background: var(--white-primary);
     padding: 20px 21px;
 }
+.home-form .form-control{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* Banner Section End */
 
 
@@ -198,6 +215,9 @@ section {
 
 
 /* Country Section Start */
+.countries-section .card{
+    margin-bottom: 1em;
+}
 .countries-section .back-image img{
     height: 20ch;
     width: 100%;
@@ -228,3 +248,94 @@ section {
     color: gray;
 }
 /* Footer Section End */
+
+
+
+/* Searchbar COde Start */
+.overlay-searchbox .searchbar {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    display: none;
+    z-index: 99999;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    background: var(--black-secondary);
+}
+
+.overlay-searchbox .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 999;
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--black-primary);
+}
+
+.overlay-searchbox input[type=text] {
+    padding: 20px;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+    font-size: 0.9rem;
+    outline: none;
+    background: var(--white-primary);
+}
+
+.overlay-searchbox input[type=text]::placeholder {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.overlay-searchbox .search-data {
+    overflow-x: auto;
+    height: 100%;
+    position: relative;
+    background: var(--gray-light);
+    padding: 1em 1em 5em 1em;
+}
+
+.overlay-searchbox .category-data .badge {
+    margin: 5px;
+    background: var(--white-primary);
+}
+
+.overlay-searchbox .searching-data {
+    background: var(--white-primary);
+    padding: 5px;
+    border: 1px solid var(--border-gray);
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.overlay-searchbox .image img{
+    height: 50px;
+    width: 50px;
+    background: var(--white-primary);
+    padding: 5px;
+    object-fit: contain;
+}
+
+.overlay-searchbox .searching-data .text a{
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.overlay-searchbox .searching-data .text p{
+    color: var(--balck-color);
+    font-size: 0.7rem;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+/* Searchbar COde End */
