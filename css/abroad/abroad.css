@@ -2,6 +2,7 @@
 
 * {
     text-decoration: none !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 :root {
@@ -41,6 +42,20 @@ p{
     box-shadow: none !important;
     width: 100%;
     font-size: 0.75rem;
+}
+
+table td,
+table th{
+    font-size: 0.875rem !important;
+    padding: 15px !important;
+    vertical-align: middle !important;
+}
+table b{
+    font-size: 0.875rem ;
+    font-weight: 600;
+}
+table p{
+    margin-bottom: 0 !important;
 }
 
 .text-white{
@@ -122,6 +137,9 @@ section {
     border-radius: 0;
     padding: 0;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 .dropdown-item{
     padding: 10px;
 }
@@ -134,9 +152,58 @@ section {
     color: var(--primary-color);
 }
 
+.accordion-button {
+    background: var(--gray-light) !important;
+    font-size: 0.875rem !important;
+}
+
+.accordion-button:not(.collapsed) ,
+.accordion-item:last-of-type .accordion-button.collapsed{
+    background: var(--gray-light) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+}
+.accordion {
+    --bs-accordion-btn-icon-width: 0.75rem !important;
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+}
+
+.accordion-item {
+    border: none !important;
+    margin-top: 10px !important;
+}
+
+.accordion-header {
+    cursor: pointer !important;
+}
+
+.accordion-header a {
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    color: var(--black-primary) !important;
+}
+
+.accordion-body p {
+    font-size: 0.875rem !important;
+    text-align: justify !important;
+    color: gray !important;
+}
+
+.accordion:last-child {
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.accordion-body {
+    border-top: 1px solid var(--official-gray) !important;
+    background: var(--gray-light) !important;
+    padding: 10px 15px 10px 15px !important;
+}
 
 /* Header-section Start */
-.nav-item {
+.header-section .nav-item {
     color: var(--primary-color) !important;
     line-height: 26px;
     font-size: 0.785rem;
@@ -145,6 +212,9 @@ section {
     background-color: transparent !important;
     margin: 0 10px;
     font-weight: 500;    
+}
+.header-section .navbar-expand-sm .navbar-nav{
+    align-items: baseline;
 }
 /* Header-section End */
 
@@ -276,17 +346,10 @@ section {
 
 .overlay-searchbox input[type=text] {
     padding: 20px;
-    font-size: 17px;
     border: none;
     width: 100%;
-    font-size: 0.9rem;
     outline: none;
     background: var(--white-primary);
-}
-
-.overlay-searchbox input[type=text]::placeholder {
-    font-size: 0.9rem;
-    font-weight: 500;
 }
 
 .overlay-searchbox .search-data {
@@ -321,7 +384,6 @@ section {
 
 .overlay-searchbox .searching-data .text a{
     color: var(--primary-color);
-    font-size: 0.9rem;
     display: -webkit-box !important;
     -webkit-line-clamp: 1;
     overflow: hidden;
@@ -331,7 +393,6 @@ section {
 
 .overlay-searchbox .searching-data .text p{
     color: var(--balck-color);
-    font-size: 0.7rem;
     display: -webkit-box !important;
     -webkit-line-clamp: 1;
     overflow: hidden;
@@ -339,3 +400,154 @@ section {
     white-space: normal;
 }
 /* Searchbar COde End */
+
+
+/* Marquee Section Start */
+.marquee-section {
+    background: var(--primary-transparent);
+}
+
+.marquee-section .card {
+    width: 100%;
+    min-width: auto;
+    cursor: pointer;
+    animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+
+.marquee-section .card .company-image {
+    height: 20px;
+}
+
+.marquee-section .card .company-image img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.marquee-section .marquee {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 1rem;
+    grid-column-gap: 1rem;
+}
+
+.marquee-section .marquee-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 100%;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    grid-column-gap: 1rem;
+}
+
+.marquee-section .scroll {
+    animation: scroll 3s linear infinite;
+}
+
+.marquee-section .rscroll {
+    animation: scroll 3s linear infinite reverse;
+}
+
+.marquee-section .msmall {
+    min-width: fit-content;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 1rem));
+    }
+}
+
+@keyframes rscroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(+100% + 1rem));
+    }
+}
+
+.modal-marquee .modal p {
+    text-align: justify;
+}
+
+.modal-marquee .modal .btn {
+    background: var(--secondary-color);
+    color: var(--black-primary);
+    border-color: var(--secondary-color);
+    transition: 0.5s ease-in-out;
+}
+
+/* Marquee Section End */
+
+
+/* Breadcrumb Section */
+.breadcrumb-section{
+    background-image: url(https://www.see.cam/img/countries-states.jpg);
+    height: 25ch;
+    background-size: cover;
+    position: relative;
+}
+.breadcrumb-section .overlay{
+    height: 25ch;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.865), rgba(14, 14, 14, 0.477));
+}
+.breadcrumb-section .heading{
+    z-index: 999;
+    position: relative;
+    color: var(--white-primary);
+}
+/* Breadcrumb Section */
+
+
+/* Detail Overview Section Start */
+.detail-overview .form-section .btn{
+    background: var(--primary-color) !important;
+    border: none !important;
+}
+.detail-overview hr{
+    border-color: var(--official-gray);
+}
+.detail-overview .detail p{
+    margin-bottom: 10px;
+}
+.detail-overview .detail ul li,
+.detail-overview .detail ul ol{
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+    color: gray;
+}
+.detail-overview .detail .image,
+.detail-overview .detail .video{
+    height: 25ch;
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.detail-overview .detail .image img,
+.detail-overview .detail .video iframe{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* Detail Overview Section End */

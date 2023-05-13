@@ -47,7 +47,7 @@
                                         <li><a href="exam.html">Exam</a></li>
                                         <li><a href="news.html">News</a></li>
                                         <li><a href="#">Study Abroad</a></li>
-                                        <li><a href="#">MBBS Abroad</a></li>
+                                        <li><a href="abroad_mbbs.html">MBBS Abroad</a></li>
                                         <li><a href="#">Online / Distance</a></li>
                                         <li><a href="#">Admission 2023</a></li>
                                         <li><a href="#">Reviews</a></li>
@@ -1566,7 +1566,9 @@
                                 <a href="#" class="btn-open first"> <i class="fa fa-bars" aria-hidden="true"></i> </a>
                             </div>
                             <div class="logo">
-                                <a href="index.html"> <img src="images/resources/logo.png" alt="" width="100"> </a>
+                                <a href="https://searchyourcollege.com/"> 
+                                    <img src="https://searchyourcollege.com/assets/images/resources/logo.png" alt="" width="150"> 
+                                </a>
                             </div>
                         </div>
                         <div class="right-side d-flex gap-4">
@@ -1574,33 +1576,38 @@
                                 <a class="nav-link" href="#" onclick="opennotication()"><i class="fa fa-bell" aria-hidden="true"></i> <span class="notification">1</span></a>
                             </div>
                             <div class="login-button">
-                                <a class="nav-link" href="#" ><i class="fa fa-user" aria-hidden="true"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#login" class="nav-link" href="#" ><i class="fa fa-user" aria-hidden="true"></i></a>
                             </div>
                             <div class="search-button">
                                 <a class="nav-link" href="#" onclick="openSearch()"><i class="fa fa-search" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>            
             </div>
-        <!-- Mobile header End -->     
+        <!-- Mobile header End -->  
 
 
         <!-- Slider Section Start -->
             <section class="slider-section">
-                <div id="carouselId" class="carousel slide carousel-fade pointer-event" data-bs-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                    </ol>
+                <div id="carouselId" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="overlay"></div>
-                            <img src="https://searchyourcollege.com/cPanel/upload/slider/amitybanner.jpg" class="img-responsive w-100" alt="Firstslide">
+                            <img src="https://searchyourcollege.com/cPanel/upload/slider/gmu3.jpg" class="img-responsive w-100" alt="Study MBBS in Belarus - Gomel State Medical University , Gomel (Belarus )">
                             <div class="carousel-caption">
-                                <a href="https://searchyourcollege.com/Colleges/college_detail/11">
-                                    Amity University, Noida (1)
+                                <a href="http://gsmu.by/" target="_blank">
+                                    Study MBBS in Belarus - Gomel State Medical University , Gomel (Belarus ) (1)
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item ">
+                            <div class="overlay"></div>
+                            <img src="https://searchyourcollege.com/cPanel/upload/slider/amitybanner.jpg" class="img-responsive w-100" alt="">
+                            <div class="carousel-caption">
+                                <a href="https://searchyourcollege.com/Colleges/college_detail/11" >
+                                    Amity University, Noida (2)
                                 </a>
                             </div>
                         </div>
@@ -1621,7 +1628,7 @@
                         </div>
                     </div>
                     <div class="consulting-btn text-end">
-                        <a href="#" class="mt-2 btn-theme" type="button">Common Application Form</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="mt-2 btn-theme" type="button">Common Application Form</a>
                     </div>
                 </div>
             </section>
@@ -1633,17 +1640,17 @@
                 <div class="container-fluid">
                     <div class="caption">
                         <div class="search-box"> 
-                            <a name="" id="" class="btn btn-primary" href="#" role="button" onclick="citygoalsearch()"><span>Select Goal & City/State </span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <a name="" id="" class="btn btn-primary" href="#" role="button" data-bs-toggle="modal" data-bs-target="#myModal"><span>Start Career Counseling</span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         </div>
                         <div class="form-section">
-                            <h6>Search College, Courses& Exam</h6>
+                            <h6>Search College, Courses & Exam</h6>
                             <button onclick="openSearch()"  type="button" class="search-bar">Search for colleges, exams, courses and more..</button>
                             <div class="counslting-btn d-flex">
                                 <div class="text">
                                     <a href="#">2500 Colleges <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
                                 <div class="button-section">
-                                    <a name="" id="" class="btn btn-primary" href="#" role="button">Need Counselling</a>
+                                    <a name="" id="" class="btn btn-primary" href="#" role="button" data-bs-toggle="modal" data-bs-target="#myModal">Comman Application Form</a>
                                 </div>
                             </div>
                         </div>
@@ -1673,24 +1680,24 @@
             </section>
         <!-- Recent Visit Section End -->     
         
-        
-        <!-- Advertisement Section Start -->
+                
+        <!-- Add Section Start -->
             <section class="add-section">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-2 col-sm-2"></div>
-                            <div class="col-lg-8 col-sm-8 col-12">
-                                <div class="add-image">
-                                <a href="#">
+                        <div class="col-lg-8 col-sm-8 col-12">
+                            <div class="add-image">
+                                <a href="https://searchyourcollege.com/">
                                     <img src="https://searchyourcollege.com/cPanel/upload/ad/1st_ad.png" alt="" class="img-responsive img-thumbnail">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-sm-2"></div> 
+                        <div class="col-lg-2 col-sm-2"></div>
                     </div>
                 </div>
             </section>
-        <!-- Advertisement Section End -->
+        <!-- Add Section End -->
 
 
         <!-- Goal Section Start -->
@@ -1804,77 +1811,232 @@
                                     <h6>Top Universities / Colleges</h6>
                                 </div>
                                 <div class="control-btn">
-                                    <a class="btn btn-sm shadow-sm prev_university"><i class="fa fa-caret-left"></i></a> 
-                                    <a class="btn btn-sm shadow-sm next_university"><i class="fa fa-caret-right"></i></a> 
+                                    <a class="btn btn-sm shadow-sm prev_university"><i class="fa fa-caret-left"></i></a>
+                                    <a class="btn btn-sm shadow-sm next_university"><i class="fa fa-caret-right"></i></a>
                                 </div>
                             </div>
                             <div id="owl-university" class="owl-carousel">
-                                <div class="owl-item">
-                                    <div class="item card p-0">
-                                        <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/About_University.jpg);">
-                                            <div class="overlay"></div>
-                                            <div class="image-data">
-                                                <div class="data-image d-flex gap-3">
-                                                    <div class="image">
-                                                        <a href="#">
-                                                            <img src="https://searchyourcollege.com/cPanel/upload/academy/download1.jpg" class="img-responsive" alt="Amity University - Amity University">
-                                                        </a>
-                                                    </div>
-                                                    <div class="data-heading">
-                                                        <a href="#"> Amity University - Amity University </a>
-                                                        <p> Noida - Uttar Pradesh | UGC, COA, BCI, PCI, AIU, ACU </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="p-2">
-                                            <table class="table table-borderless">
-                                                <tbody>
-                                                    <tr>
-                                                        <td align="left">
-                                                            <h6>Established Date</h6>
-                                                        </td>
-                                                        <td align="right">
-                                                            <p>2005</p>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td align="left">
-                                                            <h6>College Type</h6>
-                                                        </td>
-                                                        <td align="right">
-                                                            <p>Private University</p>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <div class="more">
-                                                <a href="#" class="d-flex">
-                                                    <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
-                                                    <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                            <div class="apply-btn">
-                                                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="item card p-0">
-                                    <div class="bg-image" style="background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/About_University.jpg);">
                                         <div class="overlay"></div>
                                         <div class="image-data">
                                             <div class="data-image d-flex gap-3">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/download1.jpg" class="img-responsive" alt="Amity University Noida - Amity University">
                                                     </a>
                                                 </div>
                                                 <div class="data-heading">
-                                                    <a href="#"> AMET University  - AMET- Academy of Maritime Education and Training   </a>
-                                                    <p> Pune - Maharashtra | UGC & AICTE </p>
+                                                    <a href="#"> Amity University Noida - Amity University </a>
+                                                    <p> Noida - Uttar Pradesh | UGC, COA, BCI, PCI, AIU, ACU </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>Established Date</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>2005</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>College Type</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>Private University</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="more">
+                                            <a href="#" class="d-flex">
+                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
+                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="apply-btn">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="item card p-0">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/Al-Falah_University_cover.jpg);">
+                                        <div class="overlay"></div>
+                                        <div class="image-data">
+                                            <div class="data-image d-flex gap-3">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/Al-Falah_University_logo.png" class="img-responsive" alt="Al-Falah University  - ">
+                                                    </a>
+                                                </div>
+                                                <div class="data-heading">
+                                                    <a href="#"> Al-Falah University - </a>
+                                                    <p> Faridabad - Haryana | UGC </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>Established Date</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>2014</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>College Type</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>Private University</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="more">
+                                            <a href="#" class="d-flex">
+                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
+                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="apply-btn">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="item card p-0">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/Flame_University,_Pune.jpg);">
+                                        <div class="overlay"></div>
+                                        <div class="image-data">
+                                            <div class="data-image d-flex gap-3">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/FLAME-Logo.png" class="img-responsive" alt="Flame University - ">
+                                                    </a>
+                                                </div>
+                                                <div class="data-heading">
+                                                    <a href="#"> Flame University - </a>
+                                                    <p> Pune - Maharashtra | UGC, AICTE, NBA </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>Established Date</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>2014</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>College Type</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>Private University</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="more">
+                                            <a href="#" class="d-flex">
+                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right"  aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
+                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="apply-btn">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="item card p-0">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/aks_satna.jpg);">
+                                        <div class="overlay"></div>
+                                        <div class="image-data">
+                                            <div class="data-image d-flex gap-3">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/Aks_logo.png"  class="img-responsive" alt="AKS University - Amicable Knowledge Solution">
+                                                    </a>
+                                                </div>
+                                                <div class="data-heading">
+                                                    <a href="#"> AKS University - Amicable Knowledge Solution </a>
+                                                    <p> Satna - Madhya Pradesh | UGC, AICTE, ICAR, NCTE PCI, and DGMS </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>Established Date</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>2011</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>College Type</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>Private University</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="more">
+                                            <a href="#" class="d-flex">
+                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
+                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="apply-btn">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="item card p-0">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/AMET-_Academy_of_Maritime_Education_and_Training_cover.jpg);">
+                                        <div class="overlay"></div>
+                                        <div class="image-data">
+                                            <div class="data-image d-flex gap-3">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/AMET-_Academy_of_Maritime_Education_and_Training_logo.jpg" class="img-responsive" alt="AMET University  - AMET- Academy of Maritime Education and Training">
+                                                    </a>
+                                                </div>
+                                                <div class="data-heading">
+                                                    <a href="#"> AMET University - AMET- Academy of Maritime Education and Training </a>
+                                                    <p> Chennai - Tamil Nadu | AICTE, UGC,DGS </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1904,27 +2066,132 @@
                                             <a href="#" class="d-flex">
                                                 <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
                                             </a>
-                                            <a href="#" class="d-flex">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
                                                 <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
                                             </a>
                                         </div>
                                         <div class="apply-btn">
-                                            <a href="#" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
                                         </div>
                                     </div>
                                 </div>
+            
                                 <div class="item card p-0">
-                                    <div class="bg-image" style="background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/Aurora_cover.png);">
                                         <div class="overlay"></div>
                                         <div class="image-data">
                                             <div class="data-image d-flex gap-3">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/Aurora_Logo.png" class="img-responsive" alt="Aurora Higher Education & Research Academy - ">
                                                     </a>
                                                 </div>
                                                 <div class="data-heading">
-                                                    <a href="#"> AMET University  - AMET- Academy of Maritime Education and Training   </a>
+                                                    <a href="#"> Aurora Higher Education & Research Academy - </a>
+                                                    <p> Hyderabad - Telangana | UGC, COA, BCI, PCI, AIU </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>Established Date</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>1989</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>College Type</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>Private University</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="more">
+                                            <a href="#" class="d-flex">
+                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right"  aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
+                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="apply-btn">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="item card p-0">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/neo.jpg);">
+                                        <div class="overlay"></div>
+                                        <div class="image-data">
+                                            <div class="data-image d-flex gap-3">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/logo1.png" class="img-responsive" alt="Neotia University - ">
+                                                    </a>
+                                                </div>
+                                                <div class="data-heading">
+                                                    <a href="#"> Neotia University - </a>
+                                                    <p> Kolkata - West Bengal | AICTE, UGC, DGS, BCI, PCI </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>Established Date</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>2014</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left">
+                                                        <h6>College Type</h6>
+                                                    </td>
+                                                    <td align="right">
+                                                        <p>Private University</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="more">
+                                            <a href="#" class="d-flex">
+                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
+                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="apply-btn">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="item card p-0">
+                                    <div class="bg-image" style="background-image: url(https://searchyourcollege.com/cPanel/upload/academy/ADYPU_banner.jpg);">
+                                        <div class="overlay"></div>
+                                        <div class="image-data">
+                                            <div class="data-image d-flex gap-3">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="https://searchyourcollege.com/cPanel/upload/academy/ADYPU_Logo.png" class="img-responsive" alt="ADYPU - Ajeenkya DY Patil University ">
+                                                    </a>
+                                                </div>
+                                                <div class="data-heading">
+                                                    <a href="#"> ADYPU - Ajeenkya DY Patil University </a>
                                                     <p> Pune - Maharashtra | UGC & AICTE </p>
                                                 </div>
                                             </div>
@@ -1938,7 +2205,7 @@
                                                         <h6>Established Date</h6>
                                                     </td>
                                                     <td align="right">
-                                                        <p>1993</p>
+                                                        <p>2015</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -1946,7 +2213,7 @@
                                                         <h6>College Type</h6>
                                                     </td>
                                                     <td align="right">
-                                                        <p>Deemed University</p>
+                                                        <p>Private University</p>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -1955,216 +2222,12 @@
                                             <a href="#" class="d-flex">
                                                 <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
                                             </a>
-                                            <a href="#" class="d-flex">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="d-flex">
                                                 <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
                                             </a>
                                         </div>
                                         <div class="apply-btn">
-                                            <a href="#" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item card p-0">
-                                    <div class="bg-image" style="background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);">
-                                        <div class="overlay"></div>
-                                        <div class="image-data">
-                                            <div class="data-image d-flex gap-3">
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
-                                                    </a>
-                                                </div>
-                                                <div class="data-heading">
-                                                    <a href="#"> AMET University  - AMET- Academy of Maritime Education and Training   </a>
-                                                    <p> Pune - Maharashtra | UGC & AICTE </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="p-2">
-                                        <table class="table table-borderless">
-                                            <tbody>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>Established Date</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>1993</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>College Type</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>Deemed University</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <div class="more">
-                                            <a href="#" class="d-flex">
-                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                            <a href="#" class="d-flex">
-                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                        <div class="apply-btn">
-                                            <a href="#" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item card p-0">
-                                    <div class="bg-image" style="background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);">
-                                        <div class="overlay"></div>
-                                        <div class="image-data">
-                                            <div class="data-image d-flex gap-3">
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
-                                                    </a>
-                                                </div>
-                                                <div class="data-heading">
-                                                    <a href="#"> AMET University  - AMET- Academy of Maritime Education and Training   </a>
-                                                    <p> Pune - Maharashtra | UGC & AICTE </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="p-2">
-                                        <table class="table table-borderless">
-                                            <tbody>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>Established Date</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>1993</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>College Type</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>Deemed University</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <div class="more">
-                                            <a href="#" class="d-flex">
-                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                            <a href="#" class="d-flex">
-                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                        <div class="apply-btn">
-                                            <a href="#" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item card p-0">
-                                    <div class="bg-image" style="background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);">
-                                        <div class="overlay"></div>
-                                        <div class="image-data">
-                                            <div class="data-image d-flex gap-3">
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
-                                                    </a>
-                                                </div>
-                                                <div class="data-heading">
-                                                    <a href="#"> AMET University  - AMET- Academy of Maritime Education and Training   </a>
-                                                    <p> Pune - Maharashtra | UGC & AICTE </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="p-2">
-                                        <table class="table table-borderless">
-                                            <tbody>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>Established Date</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>1993</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>College Type</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>Deemed University</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <div class="more">
-                                            <a href="#" class="d-flex">
-                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                            <a href="#" class="d-flex">
-                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                        <div class="apply-btn">
-                                            <a href="#" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item card p-0">
-                                    <div class="bg-image" style="background-image: url(https://cdn.britannica.com/37/189837-050-F0AF383E/New-Delhi-India-War-Memorial-arch-Sir.jpg);">
-                                        <div class="overlay"></div>
-                                        <div class="image-data">
-                                            <div class="data-image d-flex gap-3">
-                                                <div class="image">
-                                                    <a href="#">
-                                                        <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
-                                                    </a>
-                                                </div>
-                                                <div class="data-heading">
-                                                    <a href="#"> AMET University  - AMET- Academy of Maritime Education and Training   </a>
-                                                    <p> Pune - Maharashtra | UGC & AICTE </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="p-2">
-                                        <table class="table table-borderless">
-                                            <tbody>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>Established Date</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>1993</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td align="left">
-                                                        <h6>College Type</h6>
-                                                    </td>
-                                                    <td align="right">
-                                                        <p>Deemed University</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <div class="more">
-                                            <a href="#" class="d-flex">
-                                                <span>View All Courses and fees</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                            <a href="#" class="d-flex">
-                                                <span>Download Brochure</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                        <div class="apply-btn">
-                                            <a href="#" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary btn-sm rounded-0">Apply Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2176,18 +2239,37 @@
         <!-- University Section End -->
 
 
+        <!-- Add Section Start -->
+            <section class="add-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2 col-sm-2"></div>
+                        <div class="col-lg-8 col-sm-8 col-12">
+                            <div class="add-image">
+                                <a href="https://searchyourcollege.com/">
+                                    <img src="https://searchyourcollege.com/cPanel/upload/ad/1st_ad.png" alt="" class="img-responsive img-thumbnail">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-2"></div>
+                    </div>
+                </div>
+            </section>
+        <!-- Add Section End -->
+
+
         <!-- Top Exam Section Start -->
             <section class="top-exam-section bg-white">
                 <div id="demo">
                     <div class="container">
                         <div class="row">
-                            <div class="customNavigation d-flex"> 
+                            <div class="customNavigation d-flex">
                                 <div class="heading">
                                     <h6>Top Exam</h6>
                                 </div>
                                 <div class="control-btn">
-                                    <a class="btn btn-sm shadow-sm prev_exam"><i class="fa fa-caret-left"></i></a> 
-                                    <a class="btn btn-sm shadow-sm next_exam"><i class="fa fa-caret-right"></i></a> 
+                                    <a class="btn btn-sm shadow-sm prev_exam"><i class="fa fa-caret-left"></i></a>
+                                    <a class="btn btn-sm shadow-sm next_exam"><i class="fa fa-caret-right"></i></a>
                                 </div>
                             </div>
                             <div id="owl-exam" class="owl-carousel">
@@ -2195,7 +2277,7 @@
                                     <div class="data d-flex gap-3">
                                         <div class="image">
                                             <a href="#">
-                                                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/download.jpg" class="img-responsive" alt="CLAT 2023">
                                             </a>
                                         </div>
                                         <div class="data-heading">
@@ -2207,10 +2289,10 @@
                                         <tbody>
                                             <tr>
                                                 <td align="left">
-                                                    <h6>Participating Collegess</h6>
+                                                    <h6>Participating Colleges</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>2</p>
+                                                    <p>18</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2218,7 +2300,7 @@
                                                     <h6>Exam Date</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>February 5, 6, 12, and 13, 2023</p>
+                                                    <p>May 2023</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2226,12 +2308,12 @@
                                                     <h6>Exam Lavel</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>Post Graduate</p>
+                                                    <p>Under Graduate</p>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
+            
                                     <div class="more">
                                         <a href="#" class="d-flex">
                                             <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -2245,22 +2327,22 @@
                                     <div class="data d-flex gap-3">
                                         <div class="image">
                                             <a href="#">
-                                                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/JEE_Mains.jpg" class="img-responsive" alt="JEE Mains 2023">
                                             </a>
                                         </div>
                                         <div class="data-heading">
-                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Offline</span></p>
-                                            <a href="#">CLAT 2023</a>
+                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Online</span></p>
+                                            <a href="#">JEE Mains 2023</a>
                                         </div>
                                     </div>
                                     <table class="table table-borderless mt-4">
                                         <tbody>
                                             <tr>
                                                 <td align="left">
-                                                    <h6>Participating Collegess</h6>
+                                                    <h6>Participating Colleges</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>2</p>
+                                                    <p>27</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2268,7 +2350,7 @@
                                                     <h6>Exam Date</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>February 5, 6, 12, and 13, 2023</p>
+                                                    <p>S-1 Jan-Feb S-2 Apr-Mar</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2276,12 +2358,12 @@
                                                     <h6>Exam Lavel</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>Post Graduate</p>
+                                                    <p>Bachelors</p>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
+            
                                     <div class="more">
                                         <a href="#" class="d-flex">
                                             <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -2295,22 +2377,22 @@
                                     <div class="data d-flex gap-3">
                                         <div class="image">
                                             <a href="#">
-                                                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/JEE_Advance_logo.png" class="img-responsive" alt="JEE Advance 2023">
                                             </a>
                                         </div>
                                         <div class="data-heading">
-                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Offline</span></p>
-                                            <a href="#">CLAT 2023</a>
+                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Online</span></p>
+                                            <a href="#">JEE Advance 2023</a>
                                         </div>
                                     </div>
                                     <table class="table table-borderless mt-4">
                                         <tbody>
                                             <tr>
                                                 <td align="left">
-                                                    <h6>Participating Collegess</h6>
+                                                    <h6>Participating Colleges</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>2</p>
+                                                    <p>7</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2318,7 +2400,7 @@
                                                     <h6>Exam Date</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>February 5, 6, 12, and 13, 2023</p>
+                                                    <p>JUNE 04) (2023)</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2326,12 +2408,12 @@
                                                     <h6>Exam Lavel</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>Post Graduate</p>
+                                                    <p>Bachelors</p>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
+            
                                     <div class="more">
                                         <a href="#" class="d-flex">
                                             <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -2345,22 +2427,22 @@
                                     <div class="data d-flex gap-3">
                                         <div class="image">
                                             <a href="#">
-                                                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/CEED-Full-Form.jpg" class="img-responsive" alt="CEED 2023">
                                             </a>
                                         </div>
                                         <div class="data-heading">
-                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Offline</span></p>
-                                            <a href="#">CLAT 2023</a>
+                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Both</span></p>
+                                            <a href="#">CEED 2023</a>
                                         </div>
                                     </div>
                                     <table class="table table-borderless mt-4">
                                         <tbody>
                                             <tr>
                                                 <td align="left">
-                                                    <h6>Participating Collegess</h6>
+                                                    <h6>Participating Colleges</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>2</p>
+                                                    <p></p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2368,7 +2450,7 @@
                                                     <h6>Exam Date</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>February 5, 6, 12, and 13, 2023</p>
+                                                    <p>January 2024</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2381,7 +2463,7 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
+            
                                     <div class="more">
                                         <a href="#" class="d-flex">
                                             <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -2395,22 +2477,22 @@
                                     <div class="data d-flex gap-3">
                                         <div class="image">
                                             <a href="#">
-                                                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/BITSAT_ClipAre.jpeg" class="img-responsive" alt="BITSAT 2023">
                                             </a>
                                         </div>
                                         <div class="data-heading">
-                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Offline</span></p>
-                                            <a href="#">CLAT 2023</a>
+                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Online</span></p>
+                                            <a href="#">BITSAT 2023</a>
                                         </div>
                                     </div>
                                     <table class="table table-borderless mt-4">
                                         <tbody>
                                             <tr>
                                                 <td align="left">
-                                                    <h6>Participating Collegess</h6>
+                                                    <h6>Participating Colleges</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>2</p>
+                                                    <p></p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2418,7 +2500,11 @@
                                                     <h6>Exam Date</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>February 5, 6, 12, and 13, 2023</p>
+                                                    <p> 
+                                                        21st May to 26th May (2023) ,18th June to 22nd June 2023,20th May 2023 and
+                                                        27th May (2023) For (Session-1,Session-2 and BITSATHD Session-1
+                                                        Respectively)
+                                                    </p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2426,12 +2512,12 @@
                                                     <h6>Exam Lavel</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>Post Graduate</p>
+                                                    <p>Under Graduate</p>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
+            
                                     <div class="more">
                                         <a href="#" class="d-flex">
                                             <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -2445,22 +2531,120 @@
                                     <div class="data d-flex gap-3">
                                         <div class="image">
                                             <a href="#">
-                                                <img src="https://www.logodesignlove.com/wp-content/uploads/2022/01/logo-wave-symbol-01.jpg" class="img-responsive">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/cat-exam-logo.png" class="img-responsive" alt="CAT 2023">
                                             </a>
                                         </div>
                                         <div class="data-heading">
-                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Offline</span></p>
-                                            <a href="#">CLAT 2023</a>
+                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Online</span></p>
+                                            <a href="#">CAT 2023</a>
                                         </div>
                                     </div>
                                     <table class="table table-borderless mt-4">
                                         <tbody>
                                             <tr>
                                                 <td align="left">
-                                                    <h6>Participating Collegess</h6>
+                                                    <h6>Participating Colleges</h6>
                                                 </td>
                                                 <td align="right">
-                                                    <p>2</p>
+                                                    <p>68</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    <h6>Exam Date</h6>
+                                                </td>
+                                                <td align="right">
+                                                    <p>Approx NOV. 2023</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    <h6>Exam Lavel</h6>
+                                                </td>
+                                                <td align="right">
+                                                    <p>Post Graduate</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="more">
+                                        <a href="#" class="d-flex">
+                                            <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="d-flex">
+                                            <span>Exam Info</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item card">
+                                    <div class="data d-flex gap-3">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/images.jpg" class="img-responsive" alt="NEET 2023">
+                                            </a>
+                                        </div>
+                                        <div class="data-heading">
+                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Offline</span></p>
+                                            <a href="#">NEET 2023</a>
+                                        </div>
+                                    </div>
+                                    <table class="table table-borderless mt-4">
+                                        <tbody>
+                                            <tr>
+                                                <td align="left">
+                                                    <h6>Participating Colleges</h6>
+                                                </td>
+                                                <td align="right">
+                                                    <p>4</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    <h6>Exam Date</h6>
+                                                </td>
+                                                <td align="right">
+                                                    <p>May 7, 2023</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    <h6>Exam Lavel</h6>
+                                                </td>
+                                                <td align="right">
+                                                    <p>Under Graduate</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="more">
+                                        <a href="#" class="d-flex">
+                                            <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="#" class="d-flex">
+                                            <span>Exam Info</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item card">
+                                    <div class="data d-flex gap-3">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="https://searchyourcollege.com/cPanel/upload/exams/GATE_exam.png" class="img-responsive" alt="GATE 2023">
+                                            </a>
+                                        </div>
+                                        <div class="data-heading">
+                                            <p class="mb-0"><span class="badge bg-gray p-2 rounded-1">Online</span></p>
+                                            <a href="#">GATE 2023</a>
+                                        </div>
+                                    </div>
+                                    <table class="table table-borderless mt-4">
+                                        <tbody>
+                                            <tr>
+                                                <td align="left">
+                                                    <h6>Participating Colleges</h6>
+                                                </td>
+                                                <td align="right">
+                                                    <p>3</p>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2481,7 +2665,6 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                    
                                     <div class="more">
                                         <a href="#" class="d-flex">
                                             <span>Application Process</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
