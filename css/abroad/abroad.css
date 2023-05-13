@@ -144,72 +144,71 @@ section {
     padding: 10px;
 }
 .navbar-toggler{
-    border: none !important;
-    box-shadow: none !important;
+    border: none ;
+    box-shadow: none ;
 }
 .dropdown-item.active, .dropdown-item:active{
-    background: transparent !important;
+    background: transparent ;
     color: var(--primary-color);
 }
 
 .accordion-button {
-    background: var(--gray-light) !important;
-    font-size: 0.875rem !important;
+    background: var(--gray-light) ;
+    font-size: 0.875rem ;
 }
 
 .accordion-button:not(.collapsed) ,
 .accordion-item:last-of-type .accordion-button.collapsed{
-    background: var(--gray-light) !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
+    background: var(--gray-light) ;
+    border-radius: 0 ;
+    box-shadow: none ;
 
 }
 .accordion {
-    --bs-accordion-btn-icon-width: 0.75rem !important;
-    padding-bottom: 0 !important;
-    border-bottom: none !important;
+    --bs-accordion-btn-icon-width: 0.75rem ;
+    padding-bottom: 0 ;
+    border-bottom: none ;
 }
 
 .accordion-item {
-    border: none !important;
-    margin-top: 10px !important;
+    border: none ;
+    margin-top: 10px ;
 }
 
 .accordion-header {
-    cursor: pointer !important;
+    cursor: pointer ;
 }
 
 .accordion-header a {
-    font-weight: 500 !important;
-    font-size: 0.9rem !important;
+    font-weight: 500 ;
     color: var(--black-primary) !important;
 }
 
 .accordion-body p {
-    font-size: 0.875rem !important;
-    text-align: justify !important;
-    color: gray !important;
+    font-size: 0.875rem ;
+    text-align: justify ;
+    color: gray ;
 }
 
 .accordion:last-child {
-    padding-bottom: 0 !important;
-    border-bottom: 0 !important;
+    padding-bottom: 0 ;
+    border-bottom: 0 ;
 }
 
 .accordion-body {
-    border-top: 1px solid var(--official-gray) !important;
-    background: var(--gray-light) !important;
-    padding: 10px 15px 10px 15px !important;
+    border-top: 1px solid var(--official-gray) ;
+    background: var(--gray-light) ;
+    padding: 10px 15px 10px 15px ;
 }
 
 /* Header-section Start */
 .header-section .nav-item {
-    color: var(--primary-color) !important;
+    color: var(--primary-color) ;
     line-height: 26px;
     font-size: 0.785rem;
     text-transform: capitalize;
     transition: all 0.5s;
-    background-color: transparent !important;
+    background-color: transparent ;
     margin: 0 10px;
     font-weight: 500;    
 }
@@ -524,6 +523,9 @@ section {
 .detail-overview .form-section .btn{
     background: var(--primary-color) !important;
     border: none !important;
+}
+.breadcrumb-section .heading{
+    padding-top: 1.5em  ;
 }
 .detail-overview hr{
     border-color: var(--official-gray);

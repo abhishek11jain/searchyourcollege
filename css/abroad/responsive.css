@@ -43,7 +43,7 @@
     }
 
     p {
-        font-size: 0.75rem;
+        font-size: 0.75rem !important;
     }
 
     .p-5 {
@@ -85,6 +85,9 @@
 
 
     /* Detail Overview */
+    .breadcrumb-section .heading{
+        padding-top: 4.5em  ;
+    }
     .breadcrumb-section .heading h2{
         display: -webkit-box;
         -webkit-line-clamp: 3;
@@ -93,11 +96,15 @@
     }
     .breadcrumb-section .overlay,
     .breadcrumb-section{
-        height: 15ch;
+        height: 25ch;
     }
     .detail-overview .detail ul li,
     .detail-overview .detail ul ol{
-        font-size: 0.75rem;
+        font-size: 0.75rem !important;
+    }
+    .accordion-header a{
+        font-size: 0.75rem !important;
+
     }
 }
 
@@ -130,7 +137,7 @@
     }
 
     p {
-        font-size: 0.75rem;
+        font-size: 0.75rem !important;
     }
 
     .p-5 {
@@ -167,7 +174,7 @@
     }
 
     p {
-        font-size: 0.75rem;
+        font-size: 0.75rem !important;
     }
 
     .p-5 {
@@ -203,7 +210,7 @@
     }
 
     p {
-        font-size: 0.75rem;
+        font-size: 0.75rem !important;
     }
 
     .p-5 {
