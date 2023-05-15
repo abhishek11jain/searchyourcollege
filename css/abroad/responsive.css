@@ -80,7 +80,35 @@
 
     /* Banner Start */
     .banner-section {
-        padding: 80px 0px 0px 0px;
+        padding: 80px 0px 30px 0px;
+    }
+    .banner-section .image{
+        height: 35ch;
+    }
+
+
+    /* Services Section */
+    .service-box{
+        padding: 15px 15px !important;
+        margin-bottom: 10px;
+    }
+
+    .countries-section .back-image img{
+        height: 12ch;
+    }
+
+    .countries-section .flag-image{
+        height: 50px;
+        width: 50px;
+        margin-top: -2em;
+    }
+
+    .countries-section .detail p{
+        display: -webkit-box !important;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        white-space: normal;
     }
 
 
