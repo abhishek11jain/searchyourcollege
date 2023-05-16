@@ -59,6 +59,27 @@ $(document).ready(function () {
 });
 
 
+// Latest Information
+$(document).ready(function () {
+	var owl = $("#owl-abroad-mbbs");
+	owl.owlCarousel({
+		autoPlay: 4000,
+		items: 4,
+		itemsDesktop: [1000, 4],
+		itemsDesktopSmall: [900, 3],
+		itemsTablet: [600, 1],
+		itemsMobile: false,
+		pagination: false
+	});
+	$(".next_abroad_mbbs").click(function () {
+		owl.trigger('owl.next');
+	})
+	$(".prev_abroad_mbbs").click(function () {
+		owl.trigger('owl.prev');
+	})
+});
+
+
 // Top Exam
 $(document).ready(function () {
 	var owl = $("#owl-exam");

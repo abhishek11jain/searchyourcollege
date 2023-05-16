@@ -425,6 +425,7 @@ table {
     display: none;
     position: fixed;
     top: 0;
+    width: 100%;
     z-index: 9999;
     height: 100%;
     background: var(--white-primary);
@@ -436,7 +437,6 @@ table {
     padding: 10px;
 }
 
-.mobile-goal-city-section .goal-header-section,
 .mobile-filter-section .fliter-header-section {
     background: var(--primary-color);
 }
@@ -467,79 +467,6 @@ table {
     font-weight: 400;
 }
 
-.mobile-goal-city-section .search-data {
-    padding: 10px;
-}
-
-.mobile-goal-city-section .chat {
-    overflow: auto;
-    height: 82vh;
-    padding: 20px;
-}
-
-.mobile-goal-city-section .badge {
-    white-space: normal !important;
-    text-align: start !important;
-    line-height: 15px;
-}
-
-.mobile-goal-city-section .chat .left-side {
-    text-align: left;
-}
-
-.mobile-goal-city-section .chat .left-side .badge {
-    background: var(--secondary-color);
-    color: var(--white-primary);
-}
-
-.mobile-goal-city-section .chat .right-side {
-    text-align: right;
-}
-
-.mobile-goal-city-section .chat p {
-    margin-bottom: 0;
-}
-
-.mobile-goal-city-section .chat .message {
-    width: 100%;
-}
-
-.mobile-goal-city-section .chat .image img {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-}
-
-.mobile-goal-city-section .chating-box {
-    background: var(--gray-light);
-    align-items: center;
-    padding: 5px;
-    width: 39em;
-}
-
-.mobile-goal-city-section .chating-box .send-btn {
-    background: var(--primary-color);
-    color: var(--white-primary);
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 8px;
-    left: auto;
-    right: 2%;
-    padding: 7px;
-    text-align: center;
-}
-
-.mobile-goal-city-section .form-control {
-    border-radius: 0px;
-    padding: 10px;
-    width: 85%;
-    box-shadow: none;
-}
-
-.mobile-goal-city-section .form-control:focus {
-    border-color: var(--secondary-color);
-}
 
 /* Mobile Goal / City Section */
 
@@ -556,7 +483,15 @@ table {
     width: 20px;
     margin-right: 10px;
 }
-
+.mobile-goal-city-section p{
+    font-size: 0.75rem;
+}
+.mobile-goal-city-section .form-control{
+    border-radius: 0%;
+    border-color: var(--border-gray) !important;
+    height: 50px;
+    font-size: 0.875rem;
+}
 /* Recent Visit / Goal Section */
 
 
@@ -567,7 +502,8 @@ table {
 .courses-section,
 .place-section,
 .university-section,
-.media-spot-section {
+.media-spot-section,
+.abroad-mbbs-section {
     padding: 2em;
 }
 
@@ -598,7 +534,8 @@ table {
     border-color: transparent !important;
 }
 
-.latest-information-section .item p {
+.latest-information-section .item p,
+.abroad-mbbs-section .item p {
     font-size: 0.8rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -614,10 +551,28 @@ table {
 
 .latest-information-section .data .image,
 .top-exam-section .data .image,
-.university-section .data-image .image {
+.university-section .data .image {
     border: .1rem solid var(--border-gray);
     border-radius: 50%;
 }
+
+.abroad-mbbs-section .data .image{
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: .1rem solid var(--border-gray);
+}
+.abroad-mbbs-section .data .image img{
+    padding: 0.1rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+    background: var(--white-primary);
+}
+
 
 .latest-information-section .data .image img,
 .top-exam-section .data .image img,
@@ -632,7 +587,8 @@ table {
 
 .latest-information-section a,
 .top-exam-section a,
-.courses-section a {
+.courses-section a,
+.abroad-mbbs-section a {
     font-size: 0.8rem;
     color: var(--primary-color);
 }
@@ -650,7 +606,8 @@ table {
 .top-exam-section #owl-exam .item,
 .courses-section #owl-courses .item,
 .university-section #owl-university .item,
-.media-spot-section #owl-media .item {
+.media-spot-section #owl-media .item ,
+.abroad-mbbs-section #owl-abroad-mbbs .item {
     margin: 1rem 0.3rem;
     color: var(--black-primary);
     padding: 0.6em;
