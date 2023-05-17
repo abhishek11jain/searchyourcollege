@@ -126,8 +126,22 @@
 
 /* Whatsapp Code */
 
+/* Add Section Design */
+.add-section .add-image {
+    height: auto;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
 
-/* Add Section Design Start */
+.add-section .add-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+/* User Profile Design Start */
 .user-profile-section {
     align-items: center;
     padding: 1em;
@@ -171,7 +185,7 @@
     box-shadow: none;
     transition: 0.3s ease-in-out;
 }
-/* Add Section Design End */
+/* User Profile Design End */
 
 
 /* slider section */
