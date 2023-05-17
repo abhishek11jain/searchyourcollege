@@ -32,36 +32,7 @@
         text-align: center;
     }
 
-    #whatsapp-chat {
-        width: auto;
-        left: 5%;
-        right: 5%;
-        bottom: 20%;
-        font-size: 80%;
-    }
 
-    .chat-btn .fa {
-        padding: 0%;
-    }
-
-    .chat-btn {
-        left: 10px !important;
-        right: inherit;
-        bottom: 80px;
-        height: 40px;
-        width: 40px;
-        padding: 5px;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-
-    .chat-btn i {
-        margin-right: 0;
-    }
-
-    .chat-btn span {
-        display: none;
-    }
 
     .customNavigation .badge-buttons {
         overflow: scroll;
@@ -74,7 +45,8 @@
     .courses-section,
     .place-section,
     .university-section,
-    .media-spot-section {
+    .media-spot-section,
+    .abroad-mbbs-section {
         padding: 1em 0 1em 0;
     }
 
@@ -173,25 +145,7 @@
 
     /* Mobile Header */
 
-    /* Slider Section */
-    .slider-section .carousel-item {
-        height: 36ch !important;
-    }
 
-    .slider-section .overlay {
-        background: var(--black-secondary);
-    }
-
-    .slider-section .carousel-caption {
-        bottom: 20px;
-        right: 15px;
-    }
-
-    .slider-section .carousel-caption a {
-        font-size: 10px;
-    }
-
-    /* Slider Section */
 
 
     /* Mobile Notification Section */
@@ -446,53 +400,6 @@
 
     /* Mobile bootom Icon Section */
 
-
-    /* Onload Popup */
-    .onload-popup .content h6 {
-        font-size: 9px !important;
-        margin-bottom: 0 !important;
-    }
-
-    .onload-popup .content .text {
-        text-align: center !important;
-    }
-
-    .onload-popup .content .text p {
-        font-size: 10px;
-        text-align: left;
-    }
-
-    .onload-popup .content .text-button {
-        display: block !important;
-    }
-
-    .onload-popup .content .text-button a {
-        font-size: 12px !important;
-    }
-
-    .onload-popup .content .text-button .btn-submit .btn {
-        width: 100% !important;
-        margin-top: 10px;
-        font-size: 12px !important;
-        text-transform: capitalize !important;
-        font-weight: 400 !important;
-        letter-spacing: normal !important;
-    }
-
-    .onload-popup .mt-4 {
-        margin-top: 0 !important;
-    }
-
-    .onload-popup .register .text h6 {
-        font-size: 15px !important;
-        text-align: left !important;
-    }
-
-    .onload-popup #login .p-5 {
-        padding: 1.8rem !important;
-    }
-
-    /* Onload Popup */
 
 
 
@@ -1091,30 +998,6 @@
 
     /* ------------------ */
 
-    .slider-section .carousel-item {
-        height: 44ch !important;
-    }
-
-    .slider-section .carousel-caption {
-        right: 5em;
-    }
-
-    .caption-section {
-        padding: 4em !important;
-        margin-top: -19em !important;
-    }
-
-    .caption-section .text {
-        font-size: 4ch;
-        width: 85% !important;
-    }
-
-    /* -------------------------- */
-
-
-
-    /* -------------------------- */
-
 
     .collection-section .absolute-box {
         padding: 0 0px 0 41px !important;
@@ -1362,26 +1245,7 @@
     /* ------------------ */
 
 
-    .slider-section .carousel-item {
-        height: 44ch !important;
-    }
 
-    .caption-section {
-        padding: 2em !important;
-        margin-top: -19em !important;
-    }
-
-    .caption-section .text {
-        font-size: 3.5ch;
-    }
-
-    .slider-section .carousel-caption {
-        bottom: 2em;
-    }
-
-    .carousel-caption {
-        right: 6%;
-    }
 
     /* -------------------------- */
 
@@ -1639,18 +1503,9 @@
     /* ------------------ */
 
 
-    .slider-section .carousel-item {
-        height: 44ch !important;
-    }
 
-    .caption-section {
-        padding: 4em !important;
-        margin-top: -19em !important;
-    }
 
-    .caption-section .text {
-        font-size: 3.5ch;
-    }
+
 
     /* -------------------------- */
 

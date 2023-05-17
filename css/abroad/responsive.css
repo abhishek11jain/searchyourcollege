@@ -245,14 +245,6 @@
         padding: 1rem !important;
     }
 
-    /* Header Section */
-    .header-section .nav-item{
-        margin: 0 5px;
-    }
-    .header-section .nav-link{
-        font-size: 0.6rem;
-    }
-
 
     /* Countries Section */
     .countries-section .back-image img{
