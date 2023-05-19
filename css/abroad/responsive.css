@@ -18,7 +18,7 @@
 }
 
 @media only screen and (max-width : 767px) {
-    .mobile-none {
+    .hide-mobile {
         display: none;
     }
 
@@ -124,7 +124,7 @@
     }
     .breadcrumb-section .overlay,
     .breadcrumb-section{
-        height: 25ch;
+        height: 20ch;
     }
     .detail-overview .detail ul li,
     .detail-overview .detail ul ol{
@@ -134,11 +134,64 @@
         font-size: 0.75rem !important;
 
     }
+
+    .abroad-about-section .text{
+        padding: 1.4em;
+        padding-top: 3em;
+    }
+    .style-1 .image{
+        margin-bottom: -8%;
+        margin-left: 4.5%;
+        width: 90%;
+    }
+    .style-2 .image{
+        margin-bottom: -8%;
+        margin-left: 4.5%;
+        width: 90%;
+    }
+    .abroad-about-section .image{
+        height: 25ch;
+    }
+    .news-section .row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .news-section .slider-side .carousel-item,
+    .news-section .news-details .image {
+        height: 23ch !important;
+    }
+
+    .news-section .slider-side .carousel-caption h3 a {
+        font-size: 13px !important;
+    }
+
+    .news-section .news-details .author-detail .text a {
+        font-size: 12px;
+    }
+
+    .news-section .slider-side .carousel-caption p,
+    .news-section .slider-side .carousel-caption .btn {
+        font-size: 9px !important;
+    }
+
+    .news-section .news-side .author {
+        display: none !important;
+    }
+
+    .news-section .news-details .author-date {
+        margin-left: auto;
+    }
+
+    .news-section .news-details .author a,
+    .news-section .news-details .author p {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-width : 767px) {
-    .desktop-none {
-        display: none;
+    .hide-desktop {
+        display: none !important;
     }
 }
 
@@ -177,6 +230,29 @@
         height: 15ch;
     }
 
+    .news-section .row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .news-section .slider-side .carousel-item,
+    .news-section .news-details .image {
+        height: 30ch !important;
+    }
+
+    .news-section .slider-side .carousel-caption h3 a {
+        font-size: 13px !important;
+    }
+
+    .news-section .slider-side .carousel-caption p,
+    .news-section .slider-side .carousel-caption .btn {
+        font-size: 9px !important;
+    }
+
+    .news-section .news-side .author {
+        display: none !important;
+    }
+
 }
 
 /* IPAD LANDSCAPE */
@@ -212,6 +288,28 @@
     /* Countries Section */
     .countries-section .back-image img{
         height: 15ch;
+    }
+    .news-section .row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .news-section .slider-side .carousel-item,
+    .news-section .news-details .image {
+        height: 30ch !important;
+    }
+
+    .news-section .slider-side .carousel-caption h3 a {
+        font-size: 13px !important;
+    }
+
+    .news-section .slider-side .carousel-caption p,
+    .news-section .slider-side .carousel-caption .btn {
+        font-size: 9px !important;
+    }
+
+    .news-section .news-side .author {
+        display: none !important;
     }
 }
 
@@ -249,5 +347,45 @@
     /* Countries Section */
     .countries-section .back-image img{
         height: 15ch;
+    }
+    
+    .news-section .row {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .news-section .slider-side .carousel-item,
+    .news-section .news-details .image {
+        height: 30ch !important;
+    }
+
+    .news-section .slider-side .carousel-caption h3 a {
+        font-size: 13px !important;
+    }
+
+    .news-section .slider-side .carousel-caption p,
+    .news-section .slider-side .carousel-caption .btn {
+        font-size: 9px !important;
+    }
+
+    .news-section .news-side .author {
+        display: none !important;
+    }
+
+    .news-section .news-side .text h6 {
+        margin-bottom: 0;
+        line-height: 0.7;
+    }
+
+    .news-section .news-side .text a {
+        font-size: 8px;
+    }
+
+    .news-section .news-side .text {
+        padding: 6px;
+    }
+
+    .news-section .news-side .image {
+        height: 8ch;
     }
 }

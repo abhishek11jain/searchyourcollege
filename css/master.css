@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
+.badge {
+    background: var(--gray-light);
+    color: var(--black-primary);
+    font-weight: 400;
+    padding: 10px;
+    border: 0.02rem solid var(--border-gray);
+    box-shadow: none !important;
+    text-transform: capitalize !important;
+    margin: 5px 3px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.badge-buttons {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.badge-buttons::-webkit-scrollbar {
+    height: 5px;
+}
+
+.badge-buttons::-webkit-scrollbar-thumb {
+    background-color: var(--official-gray);
+}
+
 .ml-auto{
     margin-left: auto;
 }
@@ -39,7 +65,7 @@
 }
 
 .chat-btn .fa {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     padding: 8px;
 }
 
@@ -66,7 +92,8 @@
 }
 
 .whatsapp-header p {
-    font-size: 0.875rem;
+    font-size: 0.875rem !important;
+    color : var(--white-primary) !important;
     line-height: 1.7;
     margin: 0;
 }
@@ -310,12 +337,12 @@
     text-align: center;
     width: 40px;
     border-radius: 50%;
-    background: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 .top-button-section .top-button .fa {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 20px !important;
+    font-weight: 700 !important;
 }
 
 /* Top to Bottom End */
