@@ -366,3 +366,10 @@ function viewMore() {
     return instance
   }
 })(window.jQuery || window.cash, 'sidebar')
+
+// slider Speed Control
+var myCarousel = document.querySelector('#carouselId')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 1000,
+  wrap: false
+})

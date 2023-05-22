@@ -12,20 +12,6 @@
     transition: 0.3s ease-in-out;
 }
 
-
-.badge-buttons {
-    overflow: auto;
-    white-space: nowrap;
-}
-
-.badge-buttons::-webkit-scrollbar {
-    height: 5px;
-}
-
-.badge-buttons::-webkit-scrollbar-thumb {
-    background-color: var(--official-gray);
-}
-
 .ml-auto{
     margin-left: auto;
 }
@@ -56,7 +42,7 @@
     font-weight: 400;
     bottom: 80px;
     right: 65px;
-    z-index: 9999;
+    z-index: 2 !important;
     height: 40px;
     width: 40px;
     text-align: center;
@@ -122,6 +108,7 @@
 
 .whatsapp-chat-body .message-box p {
     margin-top: 10px;
+    margin-bottom: 1.7em !important;
 }
 
 .whatsapp-chat-body .message-box span {
@@ -330,7 +317,7 @@
     bottom: 5em;
 }
 
-.top-button-section .top-button {
+ .top-button {
     padding: 7px;
     height: 40px;
     color: var(--white-primary);
@@ -743,60 +730,6 @@
 }
 /* Author Profile Section */
 
-
-/* Accordian Code */
-.accordion-button {
-    background: var(--gray-light);
-    font-size: 0.875rem;
-}
-
-.accordion-button:not(.collapsed),
-.accordion-item:last-of-type .accordion-button.collapsed {
-    background: var(--gray-light);
-    border-radius: 0;
-    box-shadow: none;
-
-}
-
-.accordion {
-    --bs-accordion-btn-icon-width: 0.75rem;
-    padding-bottom: 0;
-    border-bottom: none;
-}
-
-.accordion-item {
-    border: none;
-    margin-top: 10px;
-}
-
-.accordion-header {
-    cursor: pointer;
-    background: var(--gray-light);
-}
-.accordion-header p{
-    padding: 0 1.2em 1em ;
-}
-.accordion-header a {
-    font-weight: 500;
-    color: var(--black-primary) !important;
-}
-
-.accordion-body p {
-    font-size: 0.875rem;
-    text-align: justify;
-    color: gray;
-}
-
-.accordion:last-child {
-    padding-bottom: 0;
-    border-bottom: 0;
-}
-
-.accordion-body {
-    border-top: 1px solid var(--official-gray);
-    background: var(--gray-light);
-    padding: 10px 15px 10px 15px;
-}
 
 
 

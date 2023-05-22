@@ -811,7 +811,7 @@ table {
     position: fixed;
     top: 0;
     transform: translateX(-100%) translateZ(0px);
-    z-index: 9999;
+    z-index: 99999;
     background-color: var(--white-primary);
     color: var(--black-primary);
     width: 295px;
