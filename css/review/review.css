@@ -1,0 +1,52 @@
+.form-control{
+    height: 50px;
+    border-radius: 0;
+    border-color: var(--border-gray) !important;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    font-size: .875rem;
+}
+.progress{
+    height: 0.5rem !important;
+}
+.btn-color{
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white-primary) !important;
+    transition: 0.3s ease-in-out;
+}
+.btn-color:hover{
+    background: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--white-primary) !important;
+}
+.review-section {
+    padding: 2em;
+}
+.review-section .form-verification .form-input-class{
+    position: relative;
+}
+.review-section .form-verification .fa{
+    position: absolute;
+    left: 5%;
+    font-size: 0.875rem;
+    top: 35%;
+}
+.review-section .form-verification label{
+    font-size: 0.85rem;
+}
+.review-section .form-verification .text-arrange {
+    padding-left: 3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.review-section .form-verification .text-danger{
+    font-size: 0.65rem;
+}
+
+
+@media only screen and (max-width : 767px){
+    .review-section {
+        padding: 1em 0 2em 0;
+    }
+}
