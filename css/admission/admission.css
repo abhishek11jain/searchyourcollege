@@ -1,0 +1,43 @@
+.college-admission-list{
+    padding: 2em;
+}
+
+.college-admission-list .image{
+    height: 25ch;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.college-admission-list .card{
+    border: 0;
+}
+
+.college-admission-list .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: var(--black-transparent);
+}
+.college-admission-list .details{
+    position: absolute;
+    z-index: 2;
+    background: var(--black-secondary);
+    bottom: 0;
+}
+.college-admission-list .details h6 a{
+    color: var(--white-primary);
+    transition: 0.3s ease-in-out;
+}
+.college-admission-list .details h6 a:hover{
+    color: var(--secondary-color);
+}
+
+
+@media only screen and (max-width : 767px){
+    .college-admission-list{
+        padding: 2em 0 2em 0;
+        margin-top: -1em;
+    }
+}
