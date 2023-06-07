@@ -1,31 +1,10 @@
-.mobile-header-section{
-    z-index: 3 !important;
-}
-.btn-color{
-    background: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
-    color: var(--white-primary) !important;
-    transition: 0.3s ease-in-out;
-}
-.btn-color:hover{
-    background: var(--secondary-color) !important;
-    border-color: var(--secondary-color) !important;
-    color: var(--white-primary) !important;
-}
-.top-padding{
-    margin-top: -21em !important;
-}
-.carousel-item {
-    transition: transform 1s ease-in-out !important;
-  }
-  
-.carousel-fade .active.carousel-item-start,
-.carousel-fade .active.carousel-item-end {
-    transition: opacity 0s 1s !important;
-}
+
+
 h4{
     font-size: 1rem !important;
 }
+
+
 .study-blog,
 .countries-listing,
 .about-study-abroad,
@@ -112,6 +91,11 @@ h4{
     white-space: normal;
 }
 
+/* Harder-section */
+.header-design{
+    margin-bottom: 0;
+}
+/* Harder-section */
 
 /* Countries Listing */
 .countries-listing .listing{
@@ -259,6 +243,10 @@ h4{
 
 @media only screen and (max-width : 767px)
 {
+
+
+
+
     .study-blog,
     .countries-listing,
     .about-study-abroad,

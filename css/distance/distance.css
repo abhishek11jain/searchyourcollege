@@ -1,36 +1,6 @@
 .text-justify{
     text-align: justify !important;
 }
-.btn-color {
-    background: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
-    color: var(--white-primary) !important;
-    transition: 0.3s ease-in-out;
-}
-
-.btn-color:hover {
-    background: var(--secondary-color) !important;
-    border-color: var(--secondary-color) !important;
-    color: var(--white-primary) !important;
-}
-
-.btn-color-2 {
-    background: var(--secondary-color) !important;
-    border-color: var(--secondary-color) !important;
-    color: var(--white-primary) !important;
-    transition: 0.3s ease-in-out;
-}
-
-.btn-color-2:hover {
-    background: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
-    color: var(--white-primary) !important;
-}
-
-.slider-section .carousel-item {
-    height: 35ch !important;
-}
-
 /* Approved Section Start */
 .approved-section {
     padding: 2em;
@@ -44,8 +14,12 @@
     width: 12.285714%;
     margin: 10px;
 }
-
-.approved-section .images-base .image-box img {
+.approved-section .images-base .image{
+    border: 1px solid var(--border-gray);
+    padding: 5px;
+    height: 80px;
+}
+.approved-section .images-base .image img {
     height: 100%;
     width: 100%;
     border-radius: 5px;
@@ -75,10 +49,9 @@
     .header-design{
         margin-bottom: 0;
     }
-    .slider-section .carousel-item {
-        height: 15ch !important;
+    .approved-section .images-base .image{
+        height: 70px;
     }
-
     .approved-section .gx-1 {
         --bs-gutter-x: 1.25rem;
     }
@@ -87,7 +60,7 @@
     }
     .approved-section .cols {
         width: calc(33.33% - 20px);
-        margin: 7px -4px;
+        margin: 6px -6px;
     }
 
     .approved-section .row {

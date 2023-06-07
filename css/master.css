@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+.btn-color{
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white-primary) !important;
+    transition: 0.3s ease-in-out;
+}
+.btn-color:hover{
+    background: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--white-primary) !important;
+}
+.btn-color-2 {
+    background: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--white-primary) !important;
+    transition: 0.3s ease-in-out;
+}
 
+.btn-color-2:hover {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white-primary) !important;
+}
 .badge {
     background: var(--gray-light);
     color: var(--black-primary);
@@ -202,7 +224,27 @@
 /* User Profile Design End */
 
 
+/* SLider button Start */
+.slider-button{
+    position: absolute;
+    right: 0 ;
+    bottom: 5%;
+}
+.slider-button .text-end{
+    background: var(--white-primary);
+    padding: 2px;
+}
+/* SLider button End */
+
+
 /* slider section */
+.slider-style-2{
+    position: relative;
+}
+.slider-style-2 .carousel-item{
+    height: auto !important;
+}
+
 .slider-section .carousel-item {
     height: 50ch;
     width: 100%;
@@ -737,9 +779,21 @@
 /* Media Queries */
 @media only screen and (max-width : 767px) {
 
-    /* Slider Section */
+    /* Slider Code */
+        .slider-style-2 .carousel-item img{
+            height: 15ch !important;
+            width: 100% !important;
+            object-fit: inherit;
+        }
+        
+        .slider-style-2 .carousel-caption {
+            bottom: -15px !important;
+            right: 4px !important;
+        }
+    /* Slider Code */
+
     .slider-section .carousel-item {
-        height: 36ch !important;
+        height: 36ch ;
     }
 
     .slider-section .overlay {
@@ -850,7 +904,7 @@
 
     /* Slider Section */
     .slider-section .carousel-item {
-        height: 44ch !important;
+        height: 44ch;
     }
 
     .slider-section .carousel-caption {
@@ -876,7 +930,7 @@
 @media only screen and (device-width : 768px) and (device-height : 1024px) and (orientation: portrait) {
     /* Slider Section */
     .slider-section .carousel-item {
-        height: 44ch !important;
+        height: 44ch;
     }
 
     

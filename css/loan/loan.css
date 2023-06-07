@@ -30,7 +30,7 @@
 }
 
 /* Background section */
-.background-section{
+/* .background-section{
     height: 60ch;
     position: relative;
     background-size: cover;
@@ -68,7 +68,7 @@
     background: var(--white-primary) !important;
     color: var(--primary-color) !important;
     border: none;
-}
+} */
 
 /* Background section */
 
@@ -78,7 +78,7 @@
 .bank-logo .card{
     background: var(--white-primary);
     border: none;
-    margin-top: -6em;
+    margin-top: 2em;
 }
 .bank-logo .card .logo{
     width: 100%;

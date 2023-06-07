@@ -70,9 +70,19 @@ p {
 
 /* How Its Work Start */
 .work-section {
+    padding: 2em 0 2em 0;
     position: relative;
     z-index: 1;
-    bottom: 6em;
+    /* bottom: 6em; */
+}
+
+.college-section .visit-record .badge{
+    margin: 0 5px 8px 0 !important;
+}
+.college-section .visit-record img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
 }
 
 .work-section .icon {
@@ -108,8 +118,8 @@ p {
 }
 
 .college-section .image img {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     object-fit: cover;
 }
 
@@ -143,6 +153,11 @@ p {
     -webkit-line-clamp: 1;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+}
+
+.college-section .apply-btn h6{
+    color: var(--secondary-color);
+    font-weight: 600;
 }
 
 /* College Lisiting End */
@@ -186,7 +201,6 @@ p {
     }
 
     .college-section {
-        margin-top: -3em;
         padding: 3rem 0.5rem 3rem 0.5rem !important;
     }
 
@@ -198,7 +212,8 @@ p {
         display: block !important;
     }
 
-    .college-section .college-detail .d-flex {
+    .college-section .college-detail .d-flex,
+    .college-section .apply-btn .d-flex {
         display: flex !important;
     }
 
@@ -241,7 +256,8 @@ p {
         display: block !important;
     }
 
-    .college-section .college-detail .d-flex {
+    .college-section .college-detail .d-flex,
+    .college-section .apply-btn .d-flex {
         display: flex !important;
     }
 
@@ -283,7 +299,8 @@ p {
         display: block !important;
     }
 
-    .college-section .college-detail .d-flex {
+    .college-section .college-detail .d-flex,
+    .college-section .apply-btn .d-flex {
         display: flex !important;
     }
 
@@ -325,7 +342,8 @@ p {
         display: block !important;
     }
 
-    .college-section .college-detail .d-flex {
+    .college-section .college-detail .d-flex,
+    .college-section .apply-btn .d-flex {
         display: flex !important;
     }
 
