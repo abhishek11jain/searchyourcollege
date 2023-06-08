@@ -1,0 +1,43 @@
+.appliaction-detail-section{
+    padding: 2em;
+}
+.appliaction-detail-section .card h6{
+    font-size: 0.85rem;
+}
+.appliaction-detail-section .add-button{
+    margin-top: 0.5em;
+}
+.appliaction-detail-section .add-button a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    background: var(--white-primary);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: 0.3s ease-in-out;
+    margin: 0 auto;
+}
+.appliaction-detail-section .add-button a:hover{
+    background: var(--secondary-color);
+    border: none;
+}
+.appliaction-detail-section .add-button .selected{
+    background: var(--secondary-color);
+    border: none;
+    color: var(--white-primary);
+}
+.appliaction-detail-section .heading h6{
+    font-size: 0.875rem;
+}
+.appliaction-detail-section .amount h6{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width : 767px){
+    .appliaction-detail-section{
+        padding: 0.4em 0 2em 0;
+    }
+}
