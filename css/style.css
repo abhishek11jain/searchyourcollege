@@ -3159,3 +3159,32 @@ table {
     display: inherit !important;
 }
 /* Cuntory Page */
+
+
+.exam-category .course-fee .course-name h6 a{
+    color: var(--primary-color) !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+}
+.exam-category .course-fee .course-name p{
+    font-size: 0.75rem !important;
+}
+.exam-category .course-fee .btn{
+    color: var(--white-primary) !important;
+}
+.exam-category .course-fee .course-name .ml-auto{
+    margin-left: auto !important;
+}
+.exam-category .course-fee .amount h4{
+    color: var(--secondary-color);
+}
+.exam-category .course-fee .amount .text-small{
+    font-size: 12px !important;
+}
+.exam-category .course-fee .amount span{
+    font-size: 12px !important;
+    border-radius: 5px;
+    color: var(--primary-color) !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}

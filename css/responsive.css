@@ -19,8 +19,25 @@
 
 /* ALL MOBILE DEVICE */
 @media only screen and (max-width : 767px) {
+    .exam-category .course-fee .d-flex{
+        display: block !important;
+    }
+
+    .exam-category .course-fee .course-name h6 a{
+        font-size: .8rem !important;
+    }
+
+    .exam-category .course-fee .course-name{
+        padding-bottom: 1em !important;
+    }
     .author-section {
         padding: 0em 0 1em !important;
+    }
+    .exam-category .course-fee .amount{
+        text-align: left !important;
+    }
+    .exam-category .course-fee .amount .details{
+        padding-bottom: 0.8rem !important;
     }
 
     .achivement-section {
@@ -741,6 +758,7 @@
 
 /* ANY DESKTOP DEVICE */
 @media only screen and (min-width : 767px) {
+    
     .hide-desktop {
         display: none !important;
     }
@@ -756,6 +774,28 @@
 
 /* IPAD PRO PORTRAIT */
 @media only screen and (device-height : 1366px) and (device-width : 1024px) and (orientation: portrait) {
+    .exam-category .course-fee .d-flex{
+        display: block !important;
+    }
+
+    .exam-category .course-fee .course-name h6 a{
+        font-size: .8rem !important;
+    }
+
+    .exam-category .course-fee .course-name{
+        padding-bottom: 1em !important;
+    }
+    .author-section {
+        padding: 0em 0 1em !important;
+    }
+    .exam-category .course-fee .amount{
+        text-align: left !important;
+    }
+    .exam-category .course-fee .amount .details{
+        padding-bottom: 0.8rem !important;
+    }
+
+
 
     .topbar-section .topbar-menus ul li a {
         font-size: 12px !important;
@@ -964,6 +1004,30 @@
 
 /* IPAD LANDSCAPE */
 @media only screen and (device-width : 1024px) and (device-height : 768px) and (orientation: landscape) {
+    .exam-category .course-fee .d-flex{
+        display: block !important;
+    }
+
+    .exam-category .course-fee .course-name h6 a{
+        font-size: .8rem !important;
+    }
+
+    .exam-category .course-fee .course-name{
+        padding-bottom: 1em !important;
+    }
+    .author-section {
+        padding: 0em 0 1em !important;
+    }
+    .exam-category .course-fee .amount{
+        text-align: left !important;
+    }
+    .exam-category .course-fee .amount .details{
+        padding-bottom: 0.8rem !important;
+    }
+
+
+
+
     .topbar-section .topbar-menus ul li a {
         font-size: 12px !important;
     }
@@ -1189,6 +1253,29 @@
 
 /* IPAD PORTRAIT */
 @media only screen and (device-width : 768px) and (device-height : 1024px) and (orientation: portrait) {
+
+    .exam-category .course-fee .d-flex{
+        display: block !important;
+    }
+
+    .exam-category .course-fee .course-name h6 a{
+        font-size: .8rem !important;
+    }
+
+    .exam-category .course-fee .course-name{
+        padding-bottom: 1em !important;
+    }
+    .author-section {
+        padding: 0em 0 1em !important;
+    }
+    .exam-category .course-fee .amount{
+        text-align: left !important;
+    }
+    .exam-category .course-fee .amount .details{
+        padding-bottom: 0.8rem !important;
+    }
+
+
 
     .newsletter-section .content .form-control,
     .newsletter-section .content .subscribe-btn button {
