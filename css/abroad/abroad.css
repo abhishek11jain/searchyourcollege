@@ -821,3 +821,43 @@
 .exam-category .news .calender {
     font-size: 10px;
 }
+
+.accordion-button:not(.collapsed), .accordion-item:last-of-type .accordion-button.collapsed {
+    background: var(--gray-light);
+    border-radius: 0;
+    box-shadow: none;
+}
+.accordion {
+    --bs-accordion-btn-icon-width: 0.75rem;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.accordion-item {
+    border: none;
+    margin-top: 10px;
+}
+.accordion-header p {
+    padding: 0 1.2em 1em;
+}
+.accordion-header {
+    cursor: pointer;
+    background: var(--gray-light);
+}
+.accordion-button:not(.collapsed), .accordion-item:last-of-type .accordion-button.collapsed {
+    background: var(--gray-light);
+    border-radius: 0;
+    box-shadow: none;
+}
+.detail-overview .detail p {
+    margin-bottom: 10px;
+}
+.accordion-body {
+    border-top: 1px solid var(--official-gray);
+    background: var(--gray-light);
+    padding: 10px 15px 10px 15px;
+}
+
+.accordion-header a {
+    font-weight: 500;
+    color: var(--black-primary) !important;
+}

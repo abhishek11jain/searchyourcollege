@@ -211,8 +211,8 @@
 }
 
 .user-profile-section .alert-btn .btn {
-    background: var(--primary-color);
-    color: var(--white-primary);
+    background: var(--primary-color) !important;
+    color: var(--white-primary) !important;
     border: none;
     font-size: 0.875rem;
     padding: 10px;
