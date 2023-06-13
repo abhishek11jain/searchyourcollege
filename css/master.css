@@ -774,6 +774,15 @@
 
 
 
+/* Advertisement Section */
+    .add-style-2 .row,
+    .add-style-3 .row,
+    .video-add-section .row{
+        overflow-x: auto !important;
+        flex-wrap: nowrap !important;
+    }
+/* Advertisement Section */
+
 
 
 /* Media Queries */
