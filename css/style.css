@@ -373,13 +373,14 @@ table {
 /* Mobile Goal / City Section */
 
 /* Recent Visit / Goal Section */
-.recent-visit-section,
-.goal-section,
 .exam-category,
 .courses-page-section {
     padding: 0.5em 0 2em;
 }
-
+.recent-visit-section,
+.goal-section{
+    padding: 0.5em 0 1em;
+}
 .goal-section .visit-record img {
     height: 20px;
     width: 20px;
@@ -3188,3 +3189,5 @@ table {
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
+
+

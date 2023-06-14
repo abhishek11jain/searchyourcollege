@@ -157,7 +157,6 @@
     .mobile-header-section .toggle-button a,
     .mobile-header-section .search-button a {
         color: var(--white-primary);
-        font-size: 13px !important;
     }
 
     /* Mobile Header */
@@ -659,6 +658,9 @@
     /* ================================================  COLLEGE PROFILE PAGE  ================================================ */
     .college-profile .college-bg .user {
         display: block !important;
+    }
+    .college-profile .h-auto .user {
+        display: flex !important;
     }
 
     .college-profile .college-bg .profile-data img,

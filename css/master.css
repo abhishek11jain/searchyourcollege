@@ -360,6 +360,7 @@
 }
 
  .top-button {
+    cursor: pointer !important;
     padding: 7px;
     height: 40px;
     color: var(--white-primary);
@@ -773,15 +774,12 @@
 /* Author Profile Section */
 
 
-
-/* Advertisement Section */
-    .add-style-2 .row,
-    .add-style-3 .row,
-    .video-add-section .row{
-        overflow-x: auto !important;
-        flex-wrap: nowrap !important;
-    }
-/* Advertisement Section */
+/* Advertisement Section*/
+.add-section{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* Advertisement Section*/
 
 
 
