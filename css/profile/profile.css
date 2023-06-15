@@ -1,0 +1,54 @@
+.my-profile-section{
+    padding: 2em;
+}
+.my-profile-section .user-profile .image{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 0.5em;
+}
+.my-profile-section .user-profile .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.my-profile-section .user-profile .name-title h6{
+    font-size: 0.9rem;
+}
+.my-profile-section .user-profile p{
+    font-size: 0.85rem;
+}
+.my-profile-section .user-profile-detail{
+    padding: 10px 0 10px 0;
+}
+.my-profile-section .user-profile-detail h6{
+    font-size: 0.75rem !important;
+    text-transform: uppercase;
+}
+.my-profile-section .user-profile-detail .form-control::placeholder{
+    border-color: var(--border-gray) ;
+    font-size: 0.875rem;
+    color: var(--black-secondary);
+}
+.my-profile-section .user-profile-detail .form-control{
+    height: 40px;
+    border-color: var(--border-gray) ;
+    font-size: 0.875rem;
+    color: var(--black-secondary);
+}
+.my-profile-section .user-profile-detail .form-control:disabled{
+    color: var(--official-gray);
+    background-color: var(--gray-light);
+    cursor: no-drop;
+}
+.my-profile-section .user-profile-detail .save-btn{
+    padding: 8px 0 8px 0;
+}
+
+@media only screen and (max-width  : 767px){
+    .my-profile-section{
+        padding: 1em 0.2em 1em 0.2em;
+    }
+    .my-profile-section .user-profile{
+        margin-bottom: 1em;
+    }
+}

@@ -3191,3 +3191,23 @@ table {
 }
 
 
+.navbar-section .dropdown-toggle::after {
+    display:none;
+}
+.navbar-section .profile span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100px;
+}
+.navbar-section .profile .dropdown-menu{
+    padding: 10px;
+}
+.navbar-section .profile .dropdown-menu a {
+    padding: 10px !important;
+    font-size: 0.875rem
+}
+.navbar-section .profile .dropdown-menu a .fa{
+    color: var(--primary-color);
+    margin-right: 10px;
+}
