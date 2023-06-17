@@ -3,7 +3,7 @@
     font-size: 0.85rem;
     background: none;
     padding: 0;
-    color: var(--official-gray);
+    color: var(--black-transparent);
     cursor: no-drop;
 }
 .form-control{
