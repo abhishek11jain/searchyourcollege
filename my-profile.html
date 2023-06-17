@@ -404,59 +404,191 @@
         <!-- My Profile Section Start -->
             <section class="my-profile-section">
                 <div class="container">
-                    <div class="profile-base bg-white p-3 shadow-sm rounded-2">
-                        <div class="row gx-3">
-                            <div class="col-lg-4 col-sm-4 col-12">
-                                <div class="user-profile text-center bg-light p-3">
-                                    <div class="image mx-auto">
-                                        <img src="https://dummyimage.com/100x100/ccc/000" alt="user-image" class="img-responsive rounded-circle">
+                    <div class="profile-base p-3 rounded-2">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12 col-12">
+                                <div class="side-bar border">
+                                    <div class="user-profile-section text-center bg-white">
+                                        <div class="image mx-auto">
+                                            <img src="https://i.pinimg.com/originals/cc/74/8c/cc748cc9175fb6e04e8d7765c79e1c28.jpg" alt="user-image" class="img-responsive border">
+                                        </div>
+                                        <div class="name">
+                                            <h6>Abhishek Jain</h6>
+                                        </div>
+                                        <div class="verified">
+                                            <p class="text-muted mb-0">Your Account Is Verified <span><i class="fa fa-check-circle text-success" aria-hidden="true"></i></span></p>
+                                        </div>
                                     </div>
-                                    <div class="name-title">
-                                        <h6>Abhishek Jain</h6>
-                                    </div>
-                                    <div class="number">
-                                        <p class="mb-1 text-muted">+(91) 123 456 7890</p>
-                                    </div>
-                                    <div class="email-address">
-                                        <p class="mb-1 text-muted">abhishek@gmail.com</p>
+                                    <div class="tab-section mt-2">
+                                        <div class="nav nav-tabs border-0" id="myTab" role="tablist">
+                                            <button class="nav-link w-100 border-0 rounded-0 text-start active" id="personal-informational-tab" data-bs-toggle="tab" data-bs-target="#personal-infromation" type="button" role="tab" aria-controls="personal-infromation" aria-selected="true">
+                                                <i class="fa fa-user" aria-hidden="true"></i>Personal Information
+                                            </button>
+                                            <button class="nav-link w-100 border-0 rounded-0 text-start" id="contact-information-tab" data-bs-toggle="tab" data-bs-target="#contact-information" type="button" role="tab" aria-controls="contact-information" aria-selected="false">
+                                                <i class="fa fa-phone-square" aria-hidden="true"></i>Contact Information
+                                            </button>
+                                            <button class="nav-link w-100 border-0 rounded-0 text-start" id="address-information-tab" data-bs-toggle="tab" data-bs-target="#address-information" type="button" role="tab" aria-controls="address-information" aria-selected="false">
+                                                <i class="fa fa-phone-square" aria-hidden="true"></i>Manage Address
+                                            </button>
+                                            <button class="nav-link w-100 border-0 rounded-0 text-start" id="educational-information-tab" data-bs-toggle="tab" data-bs-target="#educational-information" type="button" role="tab" aria-controls="educational-information" aria-selected="false">
+                                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>Educational Information
+                                            </button>
+                                            <a href="index.html" class="nav-link w-100 border-0 rounded-0 text-start">
+                                                <i class="fa fa-sign-out" aria-hidden="true"></i> Logout Account
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-8 col-sm-8 col-12">
-                                <div class="user-detail">
-                                    <div class="heading border-bottom pb-2">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <div class="page-title">
-                                                <h6 class="mb-0">My Profile</h6>
+                            <div class="col-lg-8 col-sm-12 col-12">
+                                <div class="profile-detail border bg-white p-2">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="personal-infromation" role="tabpanel" aria-labelledby="personal-informational-tab">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="tab-title">
+                                                    <h4>Personal Information</h4>
+                                                    <p>Welcome To your Personal Details ! you can edit your details from here.</p>
+                                                </div>
+                                                <div class="edit-btn">
+                                                    <a name="" id="" class="btn btn-primary bg-primary text-light border-0 rounded-0 btn-sm" role="button">Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                </div>
                                             </div>
-                                            <div class="edit-btn">
-                                                <a class="btn bg-primary text-light btn-sm rounded-0" href="#" role="button">Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                            <div class="details mt-3">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">Your Name</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" value="Abhishek Jain" aria-describedby="helpId">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">Gender</h6>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked disabled>
+                                                                <label class="form-check-label" for="inlineRadio1">Male</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" disabled>
+                                                                <label class="form-check-label" for="inlineRadio2">Female</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-3 col-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">Date of Birth</h6>
+                                                            <input type="date" class="form-control border-0 rounded-0" aria-describedby="helpId" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-3 col-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">City Name</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" value="bhilwara" aria-describedby="helpId" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-3 col-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">State Name</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" value="Rajasthan" aria-describedby="helpId" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-3 col-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">PINCODE</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" value="311001" aria-describedby="helpId" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <a name="" id="" class="btn btn-primary bg-primary text-light border-0 rounded-0 btn-sm" role="button">Save Changes</a>
+                                                    </div>
+                                                </div>                                               
                                             </div>
                                         </div>
-                                    </div>
-
-                                    <div class="user-profile-detail">
-                                        <h6 class="text-muted"> User Profile</h6>
-                                        <div class="row">
-                                            <div class="col-lg-4 col-sm-6 col-12">
-                                                <div class="mb-3">
-                                                    <input type="text" class="form-control rounded-0" placeholder="Username" aria-describedby="helpId" value="Abhishek Jain" disabled>
+                                        <div class="tab-pane fade" id="contact-information" role="tabpanel" aria-labelledby="contact-information-tab">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="tab-title">
+                                                    <h4>Contact Information</h4>
+                                                    <p>Welcome To your Contact Details ! you can edit your details from here.</p>
+                                                </div>
+                                                <div class="edit-btn">
+                                                    <a name="" id="" class="btn btn-primary bg-primary text-light border-0 rounded-0 btn-sm" role="button">Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-sm-6 col-12">
-                                                <div class="mb-3">
-                                                    <input type="text" class="form-control rounded-0" placeholder="Email Address" aria-describedby="helpId" value="abhishek@gmail.com" disabled>
+                                            <div class="details mt-3">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">Your Email Address</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" value="abhishekjain@gmail.com" aria-describedby="helpId">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">Mobile Number</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" aria-describedby="helpId" value="1234567890" disabled>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-12">
+                                                        <a name="" id="" class="btn btn-primary bg-primary text-light border-0 rounded-0 btn-sm" role="button">Save Changes</a>
+                                                    </div>
+                                                </div>                                               
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="address-information" role="tabpanel" aria-labelledby="address-information-tab">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="tab-title">
+                                                    <h4>Manage Address</h4>
+                                                    <p>Welcome To your Manage Address ! you can edit or add multiple Address.</p>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-sm-6 col-12">
-                                                <div class="mb-3">
-                                                    <input type="text" class="form-control rounded-0" placeholder="Mobile Number" aria-describedby="helpId" value="1234567890" disabled>
+                                            <div class="details mt-3">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">Address</h6>
+                                                            <b>Abhishek Jain</b> <b>1234567890</b>
+                                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sunt recusandae in sequi saepe est, quia nulla aliquid ratione maxime?</p>
+                                                        </div>
+                                                    </div>
+                                                </div>                                               
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="educational-information" role="tabpanel" aria-labelledby="educational-information-tab">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="tab-title">
+                                                    <h4>Educational Information</h4>
+                                                    <p>Welcome To your Educational Infromation ! you can edit your details from here.</p>
+                                                </div>
+                                                <div class="edit-btn">
+                                                    <a name="" id="" class="btn btn-primary bg-primary text-light border-0 rounded-0 btn-sm" role="button">Edit <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-sm-6 col-12">
-                                                <div class="mb-3">
-                                                    <a class="btn bg-primary text-light btn-sm rounded-0 w-100 save-btn" href="#" role="button">Save</a>
-                                                </div>
+                                            <div class="details mt-3">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">Last Qualification</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" value="B.Com MDSU AJMER" aria-describedby="helpId" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">12th Standred</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" aria-describedby="helpId" value="RBSE Board" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6">
+                                                        <div class="mb-3">
+                                                            <h6 class="text-muted">10th Standred</h6>
+                                                            <input type="text" class="form-control border-0 rounded-0" aria-describedby="helpId" value="RBSE Board" disabled>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-12">
+                                                        <a name="" id="" class="btn btn-primary bg-primary text-light border-0 rounded-0 btn-sm" role="button">Save Changes</a>
+                                                    </div>
+                                                </div>                                               
                                             </div>
                                         </div>
                                     </div>
@@ -468,7 +600,8 @@
             </section>
         <!-- My Profile Section End -->
 
-
+   
+          
         <!-- Footer section Start -->
             <section class="footer-section bg-primary">
                 <div class="container-fluid">
