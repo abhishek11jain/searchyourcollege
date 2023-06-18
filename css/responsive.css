@@ -19,6 +19,12 @@
 
 /* ALL MOBILE DEVICE */
 @media only screen and (max-width : 767px) {
+    .add-listing{
+        margin-top: 10px;
+    }
+    .add-listing .d-flex{
+        display: block !important;
+    }
     .exam-category .course-fee .d-flex{
         display: block !important;
     }
@@ -264,11 +270,13 @@
 
     /* Mobile Caption Section */
     .mobile-caption-section {
-        position: absolute;
+        padding: 1.5em 0 1.5em 0;
+        background: var(--gray-light);
+        /* position: absolute;
         z-index: 2;
         width: 100%;
         padding: 15px 0;
-        top: 77px;
+        top: 77px; */
     }
 
     .mobile-caption-section .search-box .btn {
@@ -281,7 +289,7 @@
     }
 
     .mobile-caption-section .form-section h6 {
-        color: var(--white-primary);
+        color: var(--black-primary);
         margin-top: 10px;
     }
 
@@ -289,7 +297,7 @@
         position: relative;
         border-radius: 4px;
         background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDUxIDQ1MSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUxIDQ1MTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZmlsbD0iI2FkYjViZCIgZD0iTTQ0Ny4wNSw0MjhsLTEwOS42LTEwOS42YzI5LjQtMzMuOCw0Ny4yLTc3LjksNDcuMi0xMjYuMUMzODQuNjUsODYuMiwyOTguMzUsMCwxOTIuMzUsMEM4Ni4yNSwwLDAuMDUsODYuMywwLjA1LDE5Mi4zDQoJCXM4Ni4zLDE5Mi4zLDE5Mi4zLDE5Mi4zYzQ4LjIsMCw5Mi4zLTE3LjgsMTI2LjEtNDcuMkw0MjguMDUsNDQ3YzIuNiwyLjYsNi4xLDQsOS41LDRzNi45LTEuMyw5LjUtNA0KCQlDNDUyLjI1LDQ0MS44LDQ1Mi4yNSw0MzMuMiw0NDcuMDUsNDI4eiBNMjYuOTUsMTkyLjNjMC05MS4yLDc0LjItMTY1LjMsMTY1LjMtMTY1LjNjOTEuMiwwLDE2NS4zLDc0LjIsMTY1LjMsMTY1LjMNCgkJcy03NC4xLDE2NS40LTE2NS4zLDE2NS40QzEwMS4xNSwzNTcuNywyNi45NSwyODMuNSwyNi45NSwxOTIuM3oiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K) 15px center / 15px no-repeat rgb(255, 255, 255);
-        border: none;
+        border: 1px solid var(--border-gray);
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
@@ -310,7 +318,7 @@
     }
 
     .mobile-caption-section .text a {
-        color: var(--white-primary);
+        color: var(--black-primary);
         font-size: 12px !important;
     }
 
@@ -776,6 +784,11 @@
 
 /* IPAD PRO PORTRAIT */
 @media only screen and (device-height : 1366px) and (device-width : 1024px) and (orientation: portrait) {
+    .recent-visit-section,
+    .goal-section{
+        padding: 2em;
+    }
+
     .exam-category .course-fee .d-flex{
         display: block !important;
     }
@@ -1001,6 +1014,15 @@
     /* ================================================  COLLEGE PROFILE PAGE  ================================================ */
     .exam-category .gallery .image {
         height: 13ch !important;
+    }
+
+
+
+    .best-city-section .countries .country-detail {
+        width: 150px;
+        float: left;
+        margin-bottom: 8px;
+        margin-right: 6px;
     }
 }
 
@@ -1250,6 +1272,14 @@
 
     .courses-page-section .courses-detail .course-data .buttons a {
         width: 35%;
+    }
+
+
+    .best-city-section .countries .country-detail {
+        width: 150px;
+        float: left;
+        margin-bottom: 8px;
+        margin-right: 6px;
     }
 }
 
@@ -1543,6 +1573,14 @@
         top: 6.5em;
     }
 
+
+
+    .best-city-section .countries .country-detail {
+        width: 164px;
+        float: left;
+        margin-bottom: 8px;
+        margin-right: 6px;
+    }
 }
 
 /* IPAD AIR */
@@ -1785,5 +1823,12 @@
 
     .news-section .news-side .image {
         height: 8ch;
+    }
+
+    .best-city-section .countries .country-detail {
+        width: 173px;
+        float: left;
+        margin-bottom: 8px;
+        margin-right: 10px;
     }
 }

@@ -261,7 +261,7 @@
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.667), rgba(255, 255, 255, 0.231));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.343), rgba(255, 255, 255, 0.231));
 }
 
 .slider-section .carousel-caption {
@@ -274,11 +274,11 @@
 }
 
 .slider-section .carousel-caption a {
-    color: var(--white-primary);
+    color: var(--black-primary);
     font-weight: 400;
     padding: 5px 10px 5px 10px;
     font-size: 0.75rem;
-    background: var(--black-secondary);
+    background: var(--white-primary);
     transition: 0.3s ease-in-out;
 }
 
@@ -785,6 +785,9 @@
 
 /* Media Queries */
 @media only screen and (max-width : 767px) {
+    .mobile-header-section{
+        margin-bottom: 0;
+    }
 
     /* Slider Code */
         .slider-style-2 .carousel-item img{
@@ -800,20 +803,16 @@
     /* Slider Code */
 
     .slider-section .carousel-item {
-        height: 36ch ;
-    }
-
-    .slider-section .overlay {
-        background: var(--black-secondary);
+        height: 15ch ;
     }
 
     .slider-section .carousel-caption {
-        bottom: 20px;
-        right: 15px;
+        bottom: -10px;
+        right: 5px;
     }
 
     .slider-section .carousel-caption a {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     /* Slider Section */

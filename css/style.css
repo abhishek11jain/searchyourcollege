@@ -3211,3 +3211,46 @@ table {
     color: var(--primary-color);
     margin-right: 10px;
 }
+
+
+/* Top Countries Start */
+.best-city-section{
+    padding: 2em;
+}
+.best-city-section .image{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 15px;
+}
+.best-city-section .image img{
+    transition: 1.2s;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.best-city-section .image:hover img{
+    transform: scale(1.1);
+}
+.best-city-section .country-detail .name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.best-city-section .countries .country-detail{
+    width: 140px;
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 7px;
+}
+.best-city-section .country-detail .name a,
+.best-city-section .country-detail .name h6{
+    color: var(--primary-color);
+    font-size: 0.875rem !important;
+}
+/* Top Countries End */
+
+
+/* Listing Start */
+.add-listing p{
+    font-size: 0.75rem;
+}
