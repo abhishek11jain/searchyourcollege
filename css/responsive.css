@@ -1019,10 +1019,8 @@
 
 
     .best-city-section .countries .country-detail {
-        width: 150px;
-        float: left;
-        margin-bottom: 8px;
-        margin-right: 6px;
+        width: 19%;
+        margin-right: 1%;
     }
 }
 
@@ -1276,10 +1274,8 @@
 
 
     .best-city-section .countries .country-detail {
-        width: 150px;
-        float: left;
-        margin-bottom: 8px;
-        margin-right: 6px;
+        width: 15.6%;
+        margin-right: 1%;
     }
 }
 
@@ -1576,10 +1572,8 @@
 
 
     .best-city-section .countries .country-detail {
-        width: 164px;
-        float: left;
-        margin-bottom: 8px;
-        margin-right: 6px;
+        width: 24%;
+        margin-right: 1%;
     }
 }
 
@@ -1826,9 +1820,7 @@
     }
 
     .best-city-section .countries .country-detail {
-        width: 173px;
-        float: left;
-        margin-bottom: 8px;
-        margin-right: 10px;
+        width: 24%;
+        margin-right: 1%;
     }
 }

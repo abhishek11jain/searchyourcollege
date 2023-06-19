@@ -7,24 +7,32 @@
 .appliaction-detail-section .add-button{
     margin-top: 0.5em;
 }
-.appliaction-detail-section .add-button a{
+.appliaction-detail-section .add-button .toggle{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    padding: 8px;
+    position: relative;
     background: var(--white-primary);
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     transition: 0.3s ease-in-out;
     margin: 0 auto;
 }
-.appliaction-detail-section .add-button a:hover{
-    background: var(--secondary-color);
-    border: none;
+.appliaction-detail-section .add-button input{
+    visibility: hidden;
 }
-.appliaction-detail-section .add-button .selected{
-    background: var(--secondary-color);
-    border: none;
+.appliaction-detail-section .add-button label{
+    position: absolute;
+    font-size: 1em;
+    left: 0;
+    padding: 8px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+.appliaction-detail-section .add-button .toggle .form-check-input:checked + label{
+    background: var(--primary-color);
+    border-radius: 50%;
     color: var(--white-primary);
 }
 .appliaction-detail-section .heading h6{

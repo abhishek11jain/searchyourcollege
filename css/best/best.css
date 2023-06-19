@@ -1,0 +1,42 @@
+.best-detail-section {
+    padding: 2em;
+}
+.best-detail-section .card{
+    border-color: var(--primary-color) !important;
+}
+.best-detail-section .title-heading h6{
+    color: var(--primary-color);
+}
+.best-detail-section .heading{
+    border-radius: 7px 7px 0 0;
+}
+.best-detail-section .heading h6{
+    color: var(--white-primary);
+    font-size: 0.875rem;
+}
+.best-detail-section .listing p{
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    transition: 0.3s ease-in-out;
+}
+.best-detail-section .listing .fa{
+    margin-right: 5px;
+}
+.best-detail-section .listing a{
+    color: var(--primary-color);
+    font-size: 0.85rem;
+    transition: 0.3s ease-in-out;
+}
+.best-detail-section .listing p:hover,
+.best-detail-section .listing a:hover{
+    color: var(--secondary-color);
+}
+
+@media only screen and (max-width : 767px){
+    .best-detail-section{
+        padding: 1em 0.5em 1em 0.5em;
+    }
+    .best-detail-section .title-heading{
+        text-align: center;
+    }
+}
