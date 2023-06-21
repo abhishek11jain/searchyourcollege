@@ -3257,3 +3257,14 @@ table {
 .add-listing p{
     font-size: 0.75rem;
 }
+
+
+/* Bottom to Top */
+.top-button-section{
+    z-index: 9 !important;
+}
+
+/* mobile bottom footer */
+.fixed-bottom{
+    z-index: initial !important;
+}

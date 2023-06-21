@@ -19,6 +19,12 @@
 
 /* ALL MOBILE DEVICE */
 @media only screen and (max-width : 767px) {
+
+    .df-messenger-wrapper{
+        bottom: 70px !important;
+        right: 50px !important;
+    }
+    
     .add-listing{
         margin-top: 10px;
     }
