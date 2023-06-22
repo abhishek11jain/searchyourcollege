@@ -780,7 +780,9 @@
     margin-bottom: 1em;
 }
 /* Advertisement Section*/
-
+.header-section .navbar-expand-sm .navbar-nav .dropdown-menu{
+    z-index: 9 !important;
+}
 
 
 /* Media Queries */
@@ -803,7 +805,7 @@
     /* Slider Code */
 
     .slider-section .carousel-item {
-        height: 15ch ;
+        height: 14ch ;
     }
 
     .slider-section .carousel-caption {

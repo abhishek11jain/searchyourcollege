@@ -26,6 +26,10 @@ html {
 }
 
 body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     height: 100%;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
