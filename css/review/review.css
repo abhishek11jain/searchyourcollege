@@ -1,51 +1,158 @@
-.form-control{
+.form-control {
     height: 50px;
     border-radius: 0;
     border-color: var(--border-gray) !important;
-    margin-bottom: 2px;
-    margin-top: 15px;
     font-size: .875rem;
 }
-.progress{
+.select-form-control{
+    border-radius: 0;
+    border-color: var(--border-gray) !important;
+    font-size: .875rem;
+    width: 100%;
+    padding: 10px;
+    outline: none ;
+}
+.progress {
     height: 0.5rem !important;
 }
-.btn-color{
+
+.btn-color {
     background: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
     color: var(--white-primary) !important;
     transition: 0.3s ease-in-out;
 }
-.btn-color:hover{
+
+.btn-color:hover {
     background: var(--secondary-color) !important;
     border-color: var(--secondary-color) !important;
     color: var(--white-primary) !important;
 }
+
 .review-section {
     padding: 2em;
 }
-.review-section .form-verification .form-input-class{
+
+.review-section .form-verification .form-input-class {
     position: relative;
 }
-.review-section .form-verification .fa{
+
+.review-section .form-verification .fa {
     position: absolute;
     left: 5%;
     font-size: 0.875rem;
     top: 35%;
 }
-.review-section .form-verification label{
+
+.review-section .form-verification label {
     font-size: 0.85rem;
 }
+
 .review-section .form-verification .text-arrange {
     padding-left: 3rem;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.review-section .form-verification .text-danger{
+
+.review-section .form-verification .text-danger {
     font-size: 0.65rem;
 }
 
+.custom-dropdown-select {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
 
-@media only screen and (max-width : 767px){
+.custom-dropdown-select .custom-select-btn {
+    min-height: 50px;
+    box-shadow: none;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    line-height: 35px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.custom-dropdown-select .custom-select-btn:before,
+.custom-dropdown-select .custom-select-btn:after {
+    display: block;
+    content: "";
+    width: 2px;
+    height: 10px;
+    background: #999;
+    position: absolute;
+    top: 21px;
+}
+
+.custom-dropdown-select .custom-select-btn:before {
+    right: 21px;
+    transform: rotate(-45deg);
+}
+
+.custom-dropdown-select .custom-select-btn:after {
+    right: 15px;
+    transform: rotate(45deg);
+}
+
+.custom-dropdown-select ul {
+    display: none;
+    position: absolute;
+    background: var(--white-primary);
+    border: 1px solid var(--border-gray) !important;
+    list-style: none;
+    border: none;
+    line-height: 1em;
+    top: 100%;
+    left: 0px;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.custom-dropdown-select ul li {
+    padding: 0.8em;
+    cursor: pointer;
+    transition: background 250ms;
+}
+
+.custom-dropdown-select ul li:hover {
+    background: var(--gray-light);
+}
+
+.custom-dropdown-select ul li.searchInput {
+    padding: 5px;
+    background: var(--white-primary);
+    position: sticky;
+    top: 0;
+}
+
+.custom-dropdown-select ul li.searchInput input {
+    width: 100%;
+    border: 0px;
+    border: 1px solid var(--border-gray);
+    padding: 6px;
+    outline: none;
+    box-shadow: none;
+}
+
+ul li{
+    list-style: decimal !important;
+    font-size: 0.875rem;
+}
+
+@media only screen and (max-width : 767px) {
     .review-section {
         padding: 1em 0 2em 0;
     }
