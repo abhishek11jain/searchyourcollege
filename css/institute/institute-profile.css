@@ -1,0 +1,120 @@
+.text-justify{
+    text-align: justify !important;
+}
+.institute-profile .background-image{
+    height: 30ch;
+    width: 100%;
+    position: relative;
+}
+.institute-profile .background-image .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    background: var(--black-transparent);
+}
+.institute-profile .background-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.institute-profile .institute-logo img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    background: var(--white-primary);
+}
+.institute-profile .institute-info-base{
+    margin: -5em 1em 0 1em;
+    position: relative;
+    z-index: 99;
+}
+.institute-profile .base .name{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.institute-profile .base p{
+    font-size: 0.875rem;
+    color: var(--black-secondary);
+}
+.institute-profile .base .rating p{
+    color: var(--secondary-color) !important;
+}
+.institute-profile .base p span{
+    color: var(--secondary-color);
+}
+.institute-profile .menus a{
+    font-size: 0.875rem;
+    margin-right: 15px;
+    padding-bottom: 8px;
+    margin-left: 5px;
+}
+.institute-profile .menus .base{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.institute-profile .menus .base::-webkit-scrollbar{
+    display: none !important;
+}
+.institute-profile .menus .active{
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color) !important;
+}
+.other-informations .heading{
+    padding-bottom: 0.5em;
+}
+.other-informations .additional-info .image,
+.other-informations .additional-info .video{
+    height: 18ch;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.other-informations .additional-info .image img,
+.other-informations .additional-info .video iframe{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.other-informations table td,
+.other-informations table th{
+    font-size: 0.875rem;
+}
+
+@media only screen and (max-width : 767px){
+    .institute-profile .background-image{
+        display: none;
+    }
+    .d-block-flex{
+        display: block !important;
+    }
+    .institute-profile .institute-logo img {
+        height: 50px;
+        width: 50px;
+    }
+    .institute-profile .base .name h5{
+        font-size: 0.75rem;
+    }
+    .institute-profile .base p{
+        font-size: 0.75rem;
+    }
+    .institute-profile .institute-info-base{
+        margin: 0;
+        border-radius: 5px !important;
+    }
+    .institute-profile .base .buttons{
+        margin-top: 10px !important;
+    }
+    .institute-profile .base .btn{
+        font-size: 0.65rem;
+        margin-bottom: 5px;
+    }
+    .institute-profile  .menus a{
+        font-size: 0.75rem;
+    }
+    
+    .other-informations table td,
+    .other-informations table th{
+        font-size: 0.75rem;
+    }}

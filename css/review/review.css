@@ -147,7 +147,7 @@
     box-shadow: none;
 }
 
-ul li{
+.review-section ul li{
     list-style: decimal !important;
     font-size: 0.875rem;
 }
