@@ -70,6 +70,15 @@
 .my-profile-section .profile-detail .details label{
     font-size: 0.85rem;
 }
+
+.my-profile-section .profile-detail .form-control{
+    border: 1px solid var(--border-gray) !important;
+    padding: 5px 10px !important; 
+}
+.my-profile-section .profile-detail .form-control:disabled{
+    border: none !important;
+    padding: 0 !important;
+}
 @media only screen and (max-width : 767px) {
     .my-profile-section {
         padding: 1em 0.2em 1em 0.2em;

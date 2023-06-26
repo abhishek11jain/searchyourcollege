@@ -81,8 +81,69 @@
 .other-informations table th{
     font-size: 0.875rem;
 }
+.institute-profile .card .user-detail{
+    padding: 0 0 1em 0;
+}
+.institute-profile .card .user-detail .image{
+    width: 40px !important;
+    height: 40px !important;
+}
+.institute-profile .card .user-detail .name{
+    display: block !important;
+}
+.institute-profile .card .user-detail img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.institute-profile .card .user-detail .name a{
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.institute-profile .card .user-detail .name p{
+    font-size: 0.75rem;
+    margin-bottom: 0;
+}
+.institute-profile .card .question a{
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.institute-profile .card .answer p{
+    color: var(--black-secondary);
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.institute-profile .card .answer p a{
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+.institute-profile .icons a{
+    font-size: 0.8rem;
+    color: var(--primary-color);
+}
+.institute-profile .accordion,
+.institute-profile  .accordion-item{
+    border: none !important;
+}
+.institute-profile .collapse-section .btn{
+    margin: 10px 0 ;
+}
+
+.slider-section .slider-button{
+    z-index: 999;
+    bottom : 5em;
+}
 
 @media only screen and (max-width : 767px){
+    .slider-section .slider-button{
+        bottom: 1em !important;
+    }
+    .institute-profile .institute-info-base .base{
+        border-radius: 10px !important;
+    }
     .institute-profile .background-image{
         display: none;
     }
@@ -117,4 +178,8 @@
     .other-informations table td,
     .other-informations table th{
         font-size: 0.75rem;
-    }}
+    }
+    .other-informations .additional-info .image, .other-informations .additional-info .video{
+        height: 11ch !important;
+    }
+}
