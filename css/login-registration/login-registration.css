@@ -93,8 +93,14 @@ body {
 
 @media only screen and (max-width : 767px){
 
+    .h-specific{
+        height: 90vh !important;
+        overflow-x: auto;
+    }
 
-
+    .text-muted{
+        font-size: 0.7rem;
+    }
     .login-registration .d-flex{
         flex-direction: column-reverse !important;
         align-items: start !important;
